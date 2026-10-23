@@ -38,12 +38,13 @@ const wrap=(data:any)=>({status:"completed",output:[{type:"message",content:[{ty
 const {questionAnswer}=await import("../lib/question-engine");
 await call("content/approve",{topicId:"t1",approved:true});
 AIResponses.push(wrap({understanding_score:90,correct_points:["Anlamı doğru kuruyor."],missing_points:[],incorrect_points:[],hint:"Açıklamana bir örnek ekle.",should_retry:false,explanatory_question:"Bu ilişkiyi nasıl örneklersin?"}));
-const semantic=await questionAnswer({question_type:"explanation",question:"İmgeyi açıkla.",rubric:"Çağrışım ve tasarım ilişkisi",correct_answer:JSON.stringify(["İmge zihinsel tasarımdır."])}, "Sözcükleri yeni bağlarla zihnimizde canlandırırız.",1,"t1");
+const semantic=await questionAnswer({question_type:"explanation",question:"İmgeyi açıkla.",rubric:"Çağrışım ve tasarım ilişkisi",correct_answer:JSON.stringify(["İmge zihinsel tasarımdır."])}, "Sözcükleri yeni bağlarla zihnimizde canlandırırız.",1,"t1","owner");
 check(semantic.score===90&&semantic.correct,"Semantic adapter accepts validated provider score for a paraphrase (mock)");
 AIResponses.push(wrap({understanding_score:120,correct_points:[],missing_points:[],incorrect_points:[],hint:"",should_retry:false,explanatory_question:""}));
-let invalid=false;try{await questionAnswer({question_type:"explanation",question:"İmge",rubric:"",correct_answer:'["imge"]'},"Örnek açıklama",1,"t1")}catch{invalid=true}
+let invalid=false;try{await questionAnswer({question_type:"explanation",question:"İmge",rubric:"",correct_answer:'["imge"]'},"Örnek açıklama",1,"t1","owner")}catch{invalid=true}
 check(invalid,"Invalid AI score is rejected by schema validation");
 
+sqlite.exec("DELETE FROM ai_usage");
 const {prepareQuestions}=await import("../lib/question-engine");
 const src:any=sqlite.prepare("SELECT * FROM source_chunks WHERE id='t1src0'").get();
 const generated=Array.from({length:5},(_,i)=>({type:["multiple_choice","true_false","cause_effect","comparison","fill_blank"][i],prompt:"Kaynak temelli farklı soru "+i,options:i===0?["A","B"]:i===1?["Doğru","Yanlış"]:[],answer:[i===0?"A":i===1?"Doğru":"Çağrışım"],explanation:"Kaynak bağlamı",rubric:"Anlamsal ilişki",difficulty:[1,2,3,1,2][i],subtopicId:"t1s0",sourceId:"t1src0",evidence:src.content.slice(0,40)}));
@@ -56,3 +57,44 @@ let wrongSource=false;try{await prepareQuestions("t1",5,"mixed","owner",true)}ca
 globalThis.fetch=originalFetch;
 console.log("TOTAL "+passed+" checks passed");
 
+// Additional regression checks: opt-in voice and shared Gemini adapter.
+setUser("participant");
+check((await call("me")).data.extraFeatures===false,"Experiment participants do not receive optional features");
+check((await call("practice/access")).data.allowed===false,"Experiment access is denied by the server");
+check((await call("tutor",{sessionId:research.data.id,message:"Konu nedir?",inputMode:"voice"})).status===403,"Voice tutor rejected for experiment participant");
+check((await call("explanation/evaluate",{sessionId:research.data.id,text:"Kendi cümlelerimle konuyu anlatıyorum.",kind:"explanation",inputMode:"voice"})).status===403,"Voice explanation rejected for experiment participant");
+setUser("control");check((await call("practice/access")).data.allowed===false,"Control group does not receive podcasts or voice");
+setUser("owner");check((await call("me")).data.extraFeatures===true,"Ordinary student can use optional features");
+const {structured,aiConfigured}=await import("../lib/ai");
+const {z}=await import("zod");
+const {reserveAIRequest}=await import("../lib/ai-usage");
+const shape={type:"object",properties:{text:{type:"string"}},required:["text"]};
+const validator=z.object({text:z.string()});
+const invoke=()=>structured("test",shape,"Only approved source.",{source:"test"},validator,"owner");
+env.AI_PROVIDER="gemini";delete env.GEMINI_API_KEY;sqlite.exec("DELETE FROM ai_usage");
+let calls=0;globalThis.fetch=async()=>{calls++;return new Response("{}");};
+check(!aiConfigured(),"Gemini without key is unconfigured");
+let unavailable=false;try{await invoke()}catch(e){unavailable=(e as Error).message.includes("henüz yapılandırılmadı")}
+check(unavailable&&calls===0,"Missing key has a readable error and makes no provider request");
+env.GEMINI_API_KEY="mock-secret-for-test";
+let requestedUrl="",requestedBody:any=null,requestedHeaders:any=null;
+globalThis.fetch=async(url,options)=>{requestedUrl=String(url);requestedBody=JSON.parse(String(options?.body));requestedHeaders=options?.headers;return Response.json({candidates:[{finishReason:"STOP",content:{parts:[{text:JSON.stringify({text:"test response"})}]}}]});};
+check((await invoke()).text==="test response"&&requestedUrl.includes("gemini-2.5-flash:generateContent"),"Existing Gemini adapter defaults to 2.5 Flash");
+check(requestedHeaders["x-goog-api-key"]==="mock-secret-for-test"&&!requestedUrl.includes("mock-secret")&&requestedBody.generationConfig.responseJsonSchema.required[0]==="text","Secret stays in server request header and JSON schema is preserved");
+env.GEMINI_MODEL="custom-test-model";await invoke();check(requestedUrl.includes("custom-test-model:"),"Gemini model override is honored");delete env.GEMINI_MODEL;
+for(const status of [403,429,500]){
+ globalThis.fetch=async()=>new Response("provider details must not leak",{status});
+ let message="";try{await invoke()}catch(e){message=(e as Error).message}
+ check(message.length>0&&!message.includes("provider details")&&(status!==429||message.includes("kota")),"Provider HTTP "+status+" handled without leaking raw data");
+}
+sqlite.exec("DELETE FROM ai_usage");globalThis.fetch=async()=>{throw new DOMException("hidden-secret","TimeoutError")};
+let timeout=false;try{await invoke()}catch(e){timeout=(e as Error).message.includes("süre aşımı")&&!String(e).includes("hidden-secret")}
+check(timeout,"Timeout error is safe and understandable");
+sqlite.exec("DELETE FROM ai_usage");
+const reservations=await Promise.allSettled(Array.from({length:7},()=>reserveAIRequest("owner")));
+check(reservations.filter(r=>r.status==="fulfilled").length===6,"Concurrent AI requests cannot exceed six per minute");
+sqlite.exec("UPDATE ai_usage SET minute_window=minute_window-1,hour_count=60");
+let hourly=false;try{await reserveAIRequest("owner")}catch{hourly=true}check(hourly,"Hour quota survives minute rollover");
+// Completed text-only sessions above passed without any microphone or podcast request.
+globalThis.fetch=originalFetch;delete env.GEMINI_API_KEY;delete env.AI_PROVIDER;
+console.log("TOTAL "+passed+" checks passed including optional features");

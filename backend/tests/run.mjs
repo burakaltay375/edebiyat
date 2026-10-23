@@ -1,5 +1,5 @@
 import ts from "typescript";import fs from "node:fs";import path from "node:path";import {pathToFileURL} from "node:url";import {spawnSync} from "node:child_process";
-const files=["tests/integration.ts","tests/env.ts","tests/headers.ts","tests/navigation.ts","app/api/[...path]/route.ts","app/chatgpt-auth.ts","db/raw.ts","db/seed.ts","lib/ai.ts","lib/repository.ts","lib/content.ts","lib/question-engine.ts","lib/learning.ts"];
+const files=["tests/integration.ts","tests/env.ts","tests/headers.ts","tests/navigation.ts","app/api/[...path]/route.ts","app/chatgpt-auth.ts","db/raw.ts","db/seed.ts","lib/ai.ts","lib/ai-usage.ts","lib/feature-access.ts","lib/repository.ts","lib/content.ts","lib/question-engine.ts","lib/learning.ts"];
 const aliases={"cloudflare:workers":"tests/env.ts","next/headers":"tests/headers.ts","next/navigation":"tests/navigation.ts"};
 const destination=f=>path.resolve("work/testbuild",f.replace(/\.ts$/,".mjs"));
 for(const file of files){

@@ -28,7 +28,7 @@
       ]
     },
     "types": [
-      "node",
+      "node", "vite/client",
       "@cloudflare/workers-types"
     ]
   },

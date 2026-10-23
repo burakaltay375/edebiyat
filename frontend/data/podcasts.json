@@ -1,0 +1,90 @@
+[
+  {
+    "id": "podcast-t9",
+    "topicId": "t9",
+    "grade": 10,
+    "order": 1,
+    "title": "Koşuk ve Türkü",
+    "src": "/podcasts/kosuk-ve-turku.mp3",
+    "transcript": null,
+    "originalFile": "ElevenLabs_2026-10-23T18_50_21_Fatih Yıldırım - Deep, Clear and Rich_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+    "sha256": "f6b36c3ea4334bed91329a19bf7be700067e8b53070ff5b14406f54f42385ccf"
+  },
+  {
+    "id": "podcast-t10",
+    "topicId": "t10",
+    "grade": 10,
+    "order": 2,
+    "title": "Şiirde Ahenk",
+    "src": "/podcasts/siirde-ahenk.mp3",
+    "transcript": null,
+    "originalFile": "ElevenLabs_2026-10-23T18_52_40_Fatih Yıldırım - Deep, Clear and Rich_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+    "sha256": "2bd6eeb231bb680fb15e846238825bf1240bd530dd7eea411c8f905d39ab70a4"
+  },
+  {
+    "id": "podcast-t11",
+    "topicId": "t11",
+    "grade": 10,
+    "order": 3,
+    "title": "Gazel ve Kaside",
+    "src": "/podcasts/gazel-ve-kaside.mp3",
+    "transcript": null,
+    "originalFile": "ElevenLabs_2026-10-23T18_57_35_Fatih Yıldırım - Deep, Clear and Rich_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+    "sha256": "31a94d35550a5f368c0e9c9f06440dbd13db79cab62c92bd9e27ac2e3d06720a"
+  },
+  {
+    "id": "podcast-t12",
+    "topicId": "t12",
+    "grade": 10,
+    "order": 4,
+    "title": "Şiirde Tema ve Söyleyici",
+    "src": "/podcasts/siirde-tema-ve-soyleyici.mp3",
+    "transcript": null,
+    "originalFile": "ElevenLabs_2026-10-23T18_59_42_Fatih Yıldırım - Deep, Clear and Rich_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+    "sha256": "dfff350aa2d8385112f3f36a96f2c5d18d8df083b4910ff321bea08a961b11e0"
+  },
+  {
+    "id": "podcast-t13",
+    "topicId": "t13",
+    "grade": 10,
+    "order": 5,
+    "title": "Destan ve Efsane",
+    "src": "/podcasts/destan-ve-efsane.mp3",
+    "transcript": null,
+    "originalFile": "ElevenLabs_2026-10-23T19_01_55_Fatih Yıldırım - Deep, Clear and Rich_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+    "sha256": "e1a2c7447cf035f93bd93b32d5ab5538b34bcd38f09deff94d1937c63e26b633"
+  },
+  {
+    "id": "podcast-t14",
+    "topicId": "t14",
+    "grade": 10,
+    "order": 6,
+    "title": "Mesneviden Modern Hikâyeye",
+    "src": "/podcasts/mesneviden-modern-hikayeye.mp3",
+    "transcript": null,
+    "originalFile": "ElevenLabs_2026-10-23T19_12_05_Fatih Yıldırım - Deep, Clear and Rich_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+    "sha256": "300d0d793e87b9a6395b2faaa1efa780204f0e2acefa9eba88e2fc8c57a3f050"
+  },
+  {
+    "id": "podcast-t15",
+    "topicId": "t15",
+    "grade": 10,
+    "order": 7,
+    "title": "Halk Hikâyesi",
+    "src": "/podcasts/halk-hikayesi.mp3",
+    "transcript": null,
+    "originalFile": "ElevenLabs_2026-10-23T19_04_41_Fatih Yıldırım - Deep, Clear and Rich_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+    "sha256": "78ffdd1ec6888e45961ac1b32e96415f78cf0160d3b718da45d1e7b8292eb694"
+  },
+  {
+    "id": "podcast-t16",
+    "topicId": "t16",
+    "grade": 10,
+    "order": 8,
+    "title": "Edebiyat ve Kültürel Bellek",
+    "src": "/podcasts/edebiyat-ve-kulturel-bellek.mp3",
+    "transcript": null,
+    "originalFile": "ElevenLabs_2026-10-23T19_05_45_Fatih Yıldırım - Deep, Clear and Rich_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+    "sha256": "8ee8389bbf6b8ac2a22fca51b8366ddbf3c20b519f4cd674cc33eebdfa6158de"
+  }
+]
