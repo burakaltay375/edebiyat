@@ -1,0 +1,2 @@
+const fs=require('node:fs');const native=fs.realpathSync.native;fs.realpathSync=Object.assign(native,{native});require('node:module').syncBuiltinESMExports();
+const os=require('node:os');const originalUserInfo=os.userInfo;os.userInfo=(...args)=>{try{return originalUserInfo(...args)}catch(error){if(error.code!=='ERR_SYSTEM_ERROR')throw error;return {uid:-1,gid:-1,username:process.env.USERNAME||'sandbox',homedir:process.env.USERPROFILE||process.cwd(),shell:null}}};require('node:module').syncBuiltinESMExports();

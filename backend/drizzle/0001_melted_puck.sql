@@ -1,0 +1,1 @@
+ALTER TABLE `session_questions` ADD `first_answer` text;

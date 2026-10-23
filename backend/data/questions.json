@@ -1,0 +1,2893 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": "Bir şiirde imgenin temel işlevi nedir?",
+    "options": [
+      "Duygu ve düşünceyi çağrışımla somutlaştırmak",
+      "Sözcükleri yalnızca gerçek anlamda kullanmak",
+      "Bilgiyi bilimsel olarak ispatlamak",
+      "Şiirin yazıldığı tarihi bildirmek"
+    ],
+    "answer": [
+      "Duygu ve düşünceyi çağrışımla somutlaştırmak"
+    ],
+    "sub": 0,
+    "id": "t1q1",
+    "subtopicId": "t1s0",
+    "explanation": "Şiirde sözcükler yalnızca sözlük anlamlarıyla kullanılmaz; çağrışımlar, sesler ve imgelerle yeni anlam ilişkileri kurulur. İmge, duygu ya da düşüncenin zihinde özgün bir tasarımla canlandırılmasıdır. Bir şiiri yorumlarken tek bir sözcüğe değil, metnin bütününe dayanmak gerekir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Şiirde sözcükler yalnızca sözlük anlamlarıyla kullanılmaz; çağrışımlar, sesler ve imgelerle yeni anlam ilişkileri kurulur.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t1q2",
+    "subtopicId": "t1s0",
+    "explanation": "Şiirde sözcükler yalnızca sözlük anlamlarıyla kullanılmaz; çağrışımlar, sesler ve imgelerle yeni anlam ilişkileri kurulur. İmge, duygu ya da düşüncenin zihinde özgün bir tasarımla canlandırılmasıdır. Bir şiiri yorumlarken tek bir sözcüğe değil, metnin bütününe dayanmak gerekir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Şiirde her sözcük yalnızca sözlük anlamıyla kullanılır.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t1q3",
+    "subtopicId": "t1s1",
+    "explanation": "Şiirde sözcükler yalnızca sözlük anlamlarıyla kullanılmaz; çağrışımlar, sesler ve imgelerle yeni anlam ilişkileri kurulur. İmge, duygu ya da düşüncenin zihinde özgün bir tasarımla canlandırılmasıdır. Bir şiiri yorumlarken tek bir sözcüğe değil, metnin bütününe dayanmak gerekir."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Şiirde özgün bir zihinsel tasarım oluşturan anlatım unsuruna ne denir?",
+    "options": [],
+    "answer": [
+      "imge"
+    ],
+    "sub": 2,
+    "id": "t1q4",
+    "subtopicId": "t1s2",
+    "explanation": "Şiirde sözcükler yalnızca sözlük anlamlarıyla kullanılmaz; çağrışımlar, sesler ve imgelerle yeni anlam ilişkileri kurulur. İmge, duygu ya da düşüncenin zihinde özgün bir tasarımla canlandırılmasıdır. Bir şiiri yorumlarken tek bir sözcüğe değil, metnin bütününe dayanmak gerekir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "“Şehrin omzu” ifadesi nasıl okunmalıdır?",
+    "options": [
+      "Bağlam içindeki çağrışımlarla",
+      "Sadece anatomik gerçeklikle",
+      "Yalnız sayı bilgisiyle"
+    ],
+    "answer": [
+      "Bağlam içindeki çağrışımlarla"
+    ],
+    "sub": 1,
+    "id": "t1q5",
+    "subtopicId": "t1s1",
+    "explanation": "Şiirde sözcükler yalnızca sözlük anlamlarıyla kullanılmaz; çağrışımlar, sesler ve imgelerle yeni anlam ilişkileri kurulur. İmge, duygu ya da düşüncenin zihinde özgün bir tasarımla canlandırılmasıdır. Bir şiiri yorumlarken tek bir sözcüğe değil, metnin bütününe dayanmak gerekir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Hangisi denemeye en uygundur?",
+    "options": [
+      "Kişisel bir düşünceyi samimi bir dille tartışmak",
+      "Her iddiayı deneyle ispatlamak",
+      "Yalnızca günlük haber aktarmak",
+      "Sahne yönergeleriyle olay kurmak"
+    ],
+    "answer": [
+      "Kişisel bir düşünceyi samimi bir dille tartışmak"
+    ],
+    "sub": 0,
+    "id": "t2q1",
+    "subtopicId": "t2s0",
+    "explanation": "Deneme, yazarın bir konuda kişisel düşüncelerini serbest bir biçimde geliştirdiği öğretici metindir. Yazar okurla konuşur gibi yazabilir. Kesin bir sonuca ulaşma ya da düşüncesini bilimsel kanıtlarla ispatlama zorunluluğu yoktur. Kişisel bakış, düşüncenin gerekçesiz olması demek değildir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Deneme, yazarın bir konuda kişisel düşüncelerini serbest bir biçimde geliştirdiği öğretici metindir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t2q2",
+    "subtopicId": "t2s0",
+    "explanation": "Deneme, yazarın bir konuda kişisel düşüncelerini serbest bir biçimde geliştirdiği öğretici metindir. Yazar okurla konuşur gibi yazabilir. Kesin bir sonuca ulaşma ya da düşüncesini bilimsel kanıtlarla ispatlama zorunluluğu yoktur. Kişisel bakış, düşüncenin gerekçesiz olması demek değildir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Denemede bütün düşünceler deneylerle ispatlanmak zorundadır.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t2q3",
+    "subtopicId": "t2s1",
+    "explanation": "Deneme, yazarın bir konuda kişisel düşüncelerini serbest bir biçimde geliştirdiği öğretici metindir. Yazar okurla konuşur gibi yazabilir. Kesin bir sonuca ulaşma ya da düşüncesini bilimsel kanıtlarla ispatlama zorunluluğu yoktur. Kişisel bakış, düşüncenin gerekçesiz olması demek değildir."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Kişisel düşüncelerin serbest ve samimi biçimde işlendiği tür nedir?",
+    "options": [],
+    "answer": [
+      "deneme"
+    ],
+    "sub": 2,
+    "id": "t2q4",
+    "subtopicId": "t2s2",
+    "explanation": "Deneme, yazarın bir konuda kişisel düşüncelerini serbest bir biçimde geliştirdiği öğretici metindir. Yazar okurla konuşur gibi yazabilir. Kesin bir sonuca ulaşma ya da düşüncesini bilimsel kanıtlarla ispatlama zorunluluğu yoktur. Kişisel bakış, düşüncenin gerekçesiz olması demek değildir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Deneme yazarının kişisel bakışı ne anlama gelir?",
+    "options": [
+      "Düşüncesini kendi deneyimi ve yorumuyla geliştirmesi",
+      "Düşüncesinin mutlaka yanlış olması",
+      "Gerekçe kullanmasının yasak olması"
+    ],
+    "answer": [
+      "Düşüncesini kendi deneyimi ve yorumuyla geliştirmesi"
+    ],
+    "sub": 1,
+    "id": "t2q5",
+    "subtopicId": "t2s1",
+    "explanation": "Deneme, yazarın bir konuda kişisel düşüncelerini serbest bir biçimde geliştirdiği öğretici metindir. Yazar okurla konuşur gibi yazabilir. Kesin bir sonuca ulaşma ya da düşüncesini bilimsel kanıtlarla ispatlama zorunluluğu yoktur. Kişisel bakış, düşüncenin gerekçesiz olması demek değildir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Kahramanın iki karar arasında kalması hangi çatışmadır?",
+    "options": [
+      "Kişinin kendisiyle çatışması",
+      "Kişinin doğayla çatışması",
+      "Yalnız mekân çatışması",
+      "Anlatıcı değişimi"
+    ],
+    "answer": [
+      "Kişinin kendisiyle çatışması"
+    ],
+    "sub": 0,
+    "id": "t3q1",
+    "subtopicId": "t3s0",
+    "explanation": "Hikâyede çatışma, olayların ilerlemesini sağlayan karşıtlık veya gerilimdir. Kişi kendisiyle, başka kişilerle, toplumla ya da doğayla çatışabilir. Tema, metnin üzerinde durduğu temel duygu veya düşüncedir; çatışma ise bu temayı görünür kılan gerilim olabilir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Hikâyede çatışma, olayların ilerlemesini sağlayan karşıtlık veya gerilimdir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t3q2",
+    "subtopicId": "t3s0",
+    "explanation": "Hikâyede çatışma, olayların ilerlemesini sağlayan karşıtlık veya gerilimdir. Kişi kendisiyle, başka kişilerle, toplumla ya da doğayla çatışabilir. Tema, metnin üzerinde durduğu temel duygu veya düşüncedir; çatışma ise bu temayı görünür kılan gerilim olabilir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Hikâyede çatışma yalnızca iki kişi arasında olabilir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t3q3",
+    "subtopicId": "t3s1",
+    "explanation": "Hikâyede çatışma, olayların ilerlemesini sağlayan karşıtlık veya gerilimdir. Kişi kendisiyle, başka kişilerle, toplumla ya da doğayla çatışabilir. Tema, metnin üzerinde durduğu temel duygu veya düşüncedir; çatışma ise bu temayı görünür kılan gerilim olabilir."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Kişinin kendi kararları arasında yaşadığı gerilime ne denir?",
+    "options": [],
+    "answer": [
+      "iç çatışma"
+    ],
+    "sub": 2,
+    "id": "t3q4",
+    "subtopicId": "t3s2",
+    "explanation": "Hikâyede çatışma, olayların ilerlemesini sağlayan karşıtlık veya gerilimdir. Kişi kendisiyle, başka kişilerle, toplumla ya da doğayla çatışabilir. Tema, metnin üzerinde durduğu temel duygu veya düşüncedir; çatışma ise bu temayı görünür kılan gerilim olabilir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Tema ile çatışma ilişkisi için hangisi doğrudur?",
+    "options": [
+      "Çatışma temayı görünür kılabilir",
+      "İkisi tamamen aynı kavramdır",
+      "Tema varsa çatışma bulunamaz"
+    ],
+    "answer": [
+      "Çatışma temayı görünür kılabilir"
+    ],
+    "sub": 1,
+    "id": "t3q5",
+    "subtopicId": "t3s1",
+    "explanation": "Hikâyede çatışma, olayların ilerlemesini sağlayan karşıtlık veya gerilimdir. Kişi kendisiyle, başka kişilerle, toplumla ya da doğayla çatışabilir. Tema, metnin üzerinde durduğu temel duygu veya düşüncedir; çatışma ise bu temayı görünür kılan gerilim olabilir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Ana düşünceyi bulmak için hangi soru daha uygundur?",
+    "options": [
+      "Yazar asıl hangi yargıyı iletmek istiyor?",
+      "Metin kaç satırdan oluşuyor?",
+      "En uzun sözcük hangisi?",
+      "Kaç noktalama işareti var?"
+    ],
+    "answer": [
+      "Yazar asıl hangi yargıyı iletmek istiyor?"
+    ],
+    "sub": 0,
+    "id": "t4q1",
+    "subtopicId": "t4s0",
+    "explanation": "Ana düşünce, metnin okura iletmek istediği temel yargıdır. Konu, metnin ne hakkında olduğudur. Yardımcı düşünceler ana düşünceyi örnekler, gerekçeler ya da ayrıntılarla destekler. Ana düşünce her zaman tek bir cümlede açıkça verilmez; metnin bütünü üzerinden çıkarılabilir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Ana düşünce, metnin okura iletmek istediği temel yargıdır.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t4q2",
+    "subtopicId": "t4s0",
+    "explanation": "Ana düşünce, metnin okura iletmek istediği temel yargıdır. Konu, metnin ne hakkında olduğudur. Yardımcı düşünceler ana düşünceyi örnekler, gerekçeler ya da ayrıntılarla destekler. Ana düşünce her zaman tek bir cümlede açıkça verilmez; metnin bütünü üzerinden çıkarılabilir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Bir metnin konusu ile ana düşüncesi her zaman aynıdır.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t4q3",
+    "subtopicId": "t4s1",
+    "explanation": "Ana düşünce, metnin okura iletmek istediği temel yargıdır. Konu, metnin ne hakkında olduğudur. Yardımcı düşünceler ana düşünceyi örnekler, gerekçeler ya da ayrıntılarla destekler. Ana düşünce her zaman tek bir cümlede açıkça verilmez; metnin bütünü üzerinden çıkarılabilir."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Metnin iletmek istediği temel yargıya ne denir?",
+    "options": [],
+    "answer": [
+      "ana düşünce",
+      "ana fikir"
+    ],
+    "sub": 2,
+    "id": "t4q4",
+    "subtopicId": "t4s2",
+    "explanation": "Ana düşünce, metnin okura iletmek istediği temel yargıdır. Konu, metnin ne hakkında olduğudur. Yardımcı düşünceler ana düşünceyi örnekler, gerekçeler ya da ayrıntılarla destekler. Ana düşünce her zaman tek bir cümlede açıkça verilmez; metnin bütünü üzerinden çıkarılabilir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Yardımcı düşüncenin işlevi nedir?",
+    "options": [
+      "Ana düşünceyi desteklemek",
+      "Konuyu tamamen değiştirmek",
+      "Her zaman başlık olmak"
+    ],
+    "answer": [
+      "Ana düşünceyi desteklemek"
+    ],
+    "sub": 1,
+    "id": "t4q5",
+    "subtopicId": "t4s1",
+    "explanation": "Ana düşünce, metnin okura iletmek istediği temel yargıdır. Konu, metnin ne hakkında olduğudur. Yardımcı düşünceler ana düşünceyi örnekler, gerekçeler ya da ayrıntılarla destekler. Ana düşünce her zaman tek bir cümlede açıkça verilmez; metnin bütünü üzerinden çıkarılabilir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Olay örgüsünü sıradan sıralamadan ayıran nedir?",
+    "options": [
+      "Olaylar arasında anlamlı ilişkiler kurulması",
+      "Kişilerin adlarının uzun olması",
+      "Her olayın aynı yerde geçmesi",
+      "Yalnız geçmiş zaman kullanılması"
+    ],
+    "answer": [
+      "Olaylar arasında anlamlı ilişkiler kurulması"
+    ],
+    "sub": 0,
+    "id": "t5q1",
+    "subtopicId": "t5s0",
+    "explanation": "Olay örgüsü, olayların neden-sonuç ve zaman ilişkileriyle düzenlenmesidir. Kişiler olayları yaşar; zaman ve mekân, olayın koşullarını belirler. Mekân yalnızca arka plan olmayabilir: kişinin duygularını ve davranışlarını etkileyebilir. Olay örgüsü, olayları sıralamaktan daha fazlasıdır."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Olay örgüsü, olayların neden-sonuç ve zaman ilişkileriyle düzenlenmesidir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t5q2",
+    "subtopicId": "t5s0",
+    "explanation": "Olay örgüsü, olayların neden-sonuç ve zaman ilişkileriyle düzenlenmesidir. Kişiler olayları yaşar; zaman ve mekân, olayın koşullarını belirler. Mekân yalnızca arka plan olmayabilir: kişinin duygularını ve davranışlarını etkileyebilir. Olay örgüsü, olayları sıralamaktan daha fazlasıdır."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Mekân, hikâyedeki olayların gelişimini hiçbir zaman etkilemez.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t5q3",
+    "subtopicId": "t5s1",
+    "explanation": "Olay örgüsü, olayların neden-sonuç ve zaman ilişkileriyle düzenlenmesidir. Kişiler olayları yaşar; zaman ve mekân, olayın koşullarını belirler. Mekân yalnızca arka plan olmayabilir: kişinin duygularını ve davranışlarını etkileyebilir. Olay örgüsü, olayları sıralamaktan daha fazlasıdır."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Olayların neden-sonuç ilişkisiyle düzenlenmesine ne denir?",
+    "options": [],
+    "answer": [
+      "olay örgüsü"
+    ],
+    "sub": 2,
+    "id": "t5q4",
+    "subtopicId": "t5s2",
+    "explanation": "Olay örgüsü, olayların neden-sonuç ve zaman ilişkileriyle düzenlenmesidir. Kişiler olayları yaşar; zaman ve mekân, olayın koşullarını belirler. Mekân yalnızca arka plan olmayabilir: kişinin duygularını ve davranışlarını etkileyebilir. Olay örgüsü, olayları sıralamaktan daha fazlasıdır."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Mekânın işlevini inceleyen soru hangisidir?",
+    "options": [
+      "Bu yer kahramanın davranışını nasıl etkiliyor?",
+      "Metinde kaç harf var?",
+      "Yazarın adı kaç heceli?"
+    ],
+    "answer": [
+      "Bu yer kahramanın davranışını nasıl etkiliyor?"
+    ],
+    "sub": 1,
+    "id": "t5q5",
+    "subtopicId": "t5s1",
+    "explanation": "Olay örgüsü, olayların neden-sonuç ve zaman ilişkileriyle düzenlenmesidir. Kişiler olayları yaşar; zaman ve mekân, olayın koşullarını belirler. Mekân yalnızca arka plan olmayabilir: kişinin duygularını ve davranışlarını etkileyebilir. Olay örgüsü, olayları sıralamaktan daha fazlasıdır."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Tüm kişilerin içinden geçenleri bilen anlatıcı hangi bakış açısını kullanır?",
+    "options": [
+      "Hâkim bakış açısı",
+      "Yalnız gözlemci bakış açısı",
+      "Her zaman kahraman bakış açısı",
+      "İkinci kişi zorunluluğu"
+    ],
+    "answer": [
+      "Hâkim bakış açısı"
+    ],
+    "sub": 0,
+    "id": "t6q1",
+    "subtopicId": "t6s0",
+    "explanation": "Anlatıcı, kurmaca metni aktaran sestir; yazarla aynı kişi olmak zorunda değildir. Kahraman anlatıcı olayın içindedir ve çoğunlukla birinci kişiyle konuşur. Gözlemci bakış açısı dışarıdan görülebilenleri aktarır. Hâkim bakış açısında anlatıcı kişilerin düşüncelerini ve farklı yerlerdeki olayları bilebilir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Anlatıcı, kurmaca metni aktaran sestir; yazarla aynı kişi olmak zorunda değildir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t6q2",
+    "subtopicId": "t6s0",
+    "explanation": "Anlatıcı, kurmaca metni aktaran sestir; yazarla aynı kişi olmak zorunda değildir. Kahraman anlatıcı olayın içindedir ve çoğunlukla birinci kişiyle konuşur. Gözlemci bakış açısı dışarıdan görülebilenleri aktarır. Hâkim bakış açısında anlatıcı kişilerin düşüncelerini ve farklı yerlerdeki olayları bilebilir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Her romandaki anlatıcı, eserin yazarıyla aynı kişidir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t6q3",
+    "subtopicId": "t6s1",
+    "explanation": "Anlatıcı, kurmaca metni aktaran sestir; yazarla aynı kişi olmak zorunda değildir. Kahraman anlatıcı olayın içindedir ve çoğunlukla birinci kişiyle konuşur. Gözlemci bakış açısı dışarıdan görülebilenleri aktarır. Hâkim bakış açısında anlatıcı kişilerin düşüncelerini ve farklı yerlerdeki olayları bilebilir."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Olayın içindeki kişinin kendi yaşadıklarını anlattığı anlatıcıya ne denir?",
+    "options": [],
+    "answer": [
+      "kahraman anlatıcı"
+    ],
+    "sub": 2,
+    "id": "t6q4",
+    "subtopicId": "t6s2",
+    "explanation": "Anlatıcı, kurmaca metni aktaran sestir; yazarla aynı kişi olmak zorunda değildir. Kahraman anlatıcı olayın içindedir ve çoğunlukla birinci kişiyle konuşur. Gözlemci bakış açısı dışarıdan görülebilenleri aktarır. Hâkim bakış açısında anlatıcı kişilerin düşüncelerini ve farklı yerlerdeki olayları bilebilir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Gözlemci anlatıcının bilgi sınırı nasıldır?",
+    "options": [
+      "Dışarıdan gözlenebilenlerle sınırlıdır",
+      "Her kişinin zihnini bilir",
+      "Geleceği kesin olarak bilir"
+    ],
+    "answer": [
+      "Dışarıdan gözlenebilenlerle sınırlıdır"
+    ],
+    "sub": 1,
+    "id": "t6q5",
+    "subtopicId": "t6s1",
+    "explanation": "Anlatıcı, kurmaca metni aktaran sestir; yazarla aynı kişi olmak zorunda değildir. Kahraman anlatıcı olayın içindedir ve çoğunlukla birinci kişiyle konuşur. Gözlemci bakış açısı dışarıdan görülebilenleri aktarır. Hâkim bakış açısında anlatıcı kişilerin düşüncelerini ve farklı yerlerdeki olayları bilebilir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Bir ağacın “Beni kesme.” demesinde hangi sanat vardır?",
+    "options": [
+      "Konuşturma",
+      "Yalnız abartma",
+      "Yalnız karşıtlık",
+      "Hiçbir söz sanatı yoktur"
+    ],
+    "answer": [
+      "Konuşturma"
+    ],
+    "sub": 0,
+    "id": "t7q1",
+    "subtopicId": "t7s0",
+    "explanation": "Benzetmede iki varlık arasında ortak özellik üzerinden ilişki kurulur. Kişileştirmede insan dışındaki varlıklara insana özgü özellikler verilir. Konuşturmada insan dışı varlık konuşturulur; bu durumda kişileştirme de vardır. Abartmada bir durum olduğundan çok büyük ya da küçük gösterilir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Benzetmede iki varlık arasında ortak özellik üzerinden ilişki kurulur.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t7q2",
+    "subtopicId": "t7s0",
+    "explanation": "Benzetmede iki varlık arasında ortak özellik üzerinden ilişki kurulur. Kişileştirmede insan dışındaki varlıklara insana özgü özellikler verilir. Konuşturmada insan dışı varlık konuşturulur; bu durumda kişileştirme de vardır. Abartmada bir durum olduğundan çok büyük ya da küçük gösterilir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Konuşturmada kişileştirme bulunmaz.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t7q3",
+    "subtopicId": "t7s1",
+    "explanation": "Benzetmede iki varlık arasında ortak özellik üzerinden ilişki kurulur. Kişileştirmede insan dışındaki varlıklara insana özgü özellikler verilir. Konuşturmada insan dışı varlık konuşturulur; bu durumda kişileştirme de vardır. Abartmada bir durum olduğundan çok büyük ya da küçük gösterilir."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "İnsan dışındaki varlıklara insan özellikleri verilmesine ne denir?",
+    "options": [],
+    "answer": [
+      "kişileştirme",
+      "teşhis"
+    ],
+    "sub": 2,
+    "id": "t7q4",
+    "subtopicId": "t7s2",
+    "explanation": "Benzetmede iki varlık arasında ortak özellik üzerinden ilişki kurulur. Kişileştirmede insan dışındaki varlıklara insana özgü özellikler verilir. Konuşturmada insan dışı varlık konuşturulur; bu durumda kişileştirme de vardır. Abartmada bir durum olduğundan çok büyük ya da küçük gösterilir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "“Dağ gibi çanta” hangi sanata örnektir?",
+    "options": [
+      "Benzetme",
+      "Konuşturma",
+      "Yalnız karşıtlık"
+    ],
+    "answer": [
+      "Benzetme"
+    ],
+    "sub": 1,
+    "id": "t7q5",
+    "subtopicId": "t7s1",
+    "explanation": "Benzetmede iki varlık arasında ortak özellik üzerinden ilişki kurulur. Kişileştirmede insan dışındaki varlıklara insana özgü özellikler verilir. Konuşturmada insan dışı varlık konuşturulur; bu durumda kişileştirme de vardır. Abartmada bir durum olduğundan çok büyük ya da küçük gösterilir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Hangi yazım doğrudur?",
+    "options": [
+      "Sen de gelecek misin?",
+      "Sende gelecek misin?",
+      "Sen de gelecekmisin?",
+      "Sen de gelecekmi sin?"
+    ],
+    "answer": [
+      "Sen de gelecek misin?"
+    ],
+    "sub": 0,
+    "id": "t8q1",
+    "subtopicId": "t8s0",
+    "explanation": "Bağlaç olan de ayrı yazılır; cümleden çıkarıldığında temel yapı genellikle bozulmaz. Bulunma durumu eki -de sözcüğe bitişir ve ses uyumuna göre -da, -te, -ta biçimlerini alabilir. Soru eki mı ayrı yazılır; kendisinden sonraki ekler ona bitişir. Noktalama, cümlenin anlam ilişkilerini görünür kılar."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Bağlaç olan de ayrı yazılır; cümleden çıkarıldığında temel yapı genellikle bozulmaz.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t8q2",
+    "subtopicId": "t8s0",
+    "explanation": "Bağlaç olan de ayrı yazılır; cümleden çıkarıldığında temel yapı genellikle bozulmaz. Bulunma durumu eki -de sözcüğe bitişir ve ses uyumuna göre -da, -te, -ta biçimlerini alabilir. Soru eki mı ayrı yazılır; kendisinden sonraki ekler ona bitişir. Noktalama, cümlenin anlam ilişkilerini görünür kılar."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Bağlaç olan de kendinden önceki sözcüğe bitişik yazılır.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t8q3",
+    "subtopicId": "t8s1",
+    "explanation": "Bağlaç olan de ayrı yazılır; cümleden çıkarıldığında temel yapı genellikle bozulmaz. Bulunma durumu eki -de sözcüğe bitişir ve ses uyumuna göre -da, -te, -ta biçimlerini alabilir. Soru eki mı ayrı yazılır; kendisinden sonraki ekler ona bitişir. Noktalama, cümlenin anlam ilişkilerini görünür kılar."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "“Evde bekledim.” cümlesinde -de hangi ektir?",
+    "options": [],
+    "answer": [
+      "bulunma eki",
+      "bulunma durumu eki",
+      "bulunma hâli eki",
+      "bulunma hali eki"
+    ],
+    "sub": 2,
+    "id": "t8q4",
+    "subtopicId": "t8s2",
+    "explanation": "Bağlaç olan de ayrı yazılır; cümleden çıkarıldığında temel yapı genellikle bozulmaz. Bulunma durumu eki -de sözcüğe bitişir ve ses uyumuna göre -da, -te, -ta biçimlerini alabilir. Soru eki mı ayrı yazılır; kendisinden sonraki ekler ona bitişir. Noktalama, cümlenin anlam ilişkilerini görünür kılar."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "“Kitap da masada.” cümlesindeki ilk da nedir?",
+    "options": [
+      "Bağlaç",
+      "Bulunma eki",
+      "İyelik eki"
+    ],
+    "answer": [
+      "Bağlaç"
+    ],
+    "sub": 1,
+    "id": "t8q5",
+    "subtopicId": "t8s1",
+    "explanation": "Bağlaç olan de ayrı yazılır; cümleden çıkarıldığında temel yapı genellikle bozulmaz. Bulunma durumu eki -de sözcüğe bitişir ve ses uyumuna göre -da, -te, -ta biçimlerini alabilir. Soru eki mı ayrı yazılır; kendisinden sonraki ekler ona bitişir. Noktalama, cümlenin anlam ilişkilerini görünür kılar."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Türküde tekrarlanan bölüm için hangi ad kullanılır?",
+    "options": [
+      "Kavuştak",
+      "Makta",
+      "Aruz",
+      "Perde"
+    ],
+    "answer": [
+      "Kavuştak"
+    ],
+    "sub": 0,
+    "id": "t9q1",
+    "subtopicId": "t9s0",
+    "explanation": "Koşuk, İslamiyet öncesi Türk şiir geleneğinde doğa, sevgi ve yiğitlik gibi konuları işleyen ürünlerdendir. Genellikle hece ölçüsü ve dörtlüklerle ilişkilendirilir. Türkü, bir ezgiyle söylenen halk şiiri ürünüdür; bent ve kavuştak içerebilir. Türkülerde yöresel söyleyiş ve toplumsal yaşantı izleri bulunur."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Koşuk, İslamiyet öncesi Türk şiir geleneğinde doğa, sevgi ve yiğitlik gibi konuları işleyen ürünlerdendir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t9q2",
+    "subtopicId": "t9s0",
+    "explanation": "Koşuk, İslamiyet öncesi Türk şiir geleneğinde doğa, sevgi ve yiğitlik gibi konuları işleyen ürünlerdendir. Genellikle hece ölçüsü ve dörtlüklerle ilişkilendirilir. Türkü, bir ezgiyle söylenen halk şiiri ürünüdür; bent ve kavuştak içerebilir. Türkülerde yöresel söyleyiş ve toplumsal yaşantı izleri bulunur."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Türkülerin ezgiyle hiçbir ilişkisi yoktur.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t9q3",
+    "subtopicId": "t9s1",
+    "explanation": "Koşuk, İslamiyet öncesi Türk şiir geleneğinde doğa, sevgi ve yiğitlik gibi konuları işleyen ürünlerdendir. Genellikle hece ölçüsü ve dörtlüklerle ilişkilendirilir. Türkü, bir ezgiyle söylenen halk şiiri ürünüdür; bent ve kavuştak içerebilir. Türkülerde yöresel söyleyiş ve toplumsal yaşantı izleri bulunur."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "İslamiyet öncesi Türk şiirinde doğa, sevgi, yiğitlik konularını işleyen ürün nedir?",
+    "options": [],
+    "answer": [
+      "koşuk"
+    ],
+    "sub": 2,
+    "id": "t9q4",
+    "subtopicId": "t9s2",
+    "explanation": "Koşuk, İslamiyet öncesi Türk şiir geleneğinde doğa, sevgi ve yiğitlik gibi konuları işleyen ürünlerdendir. Genellikle hece ölçüsü ve dörtlüklerle ilişkilendirilir. Türkü, bir ezgiyle söylenen halk şiiri ürünüdür; bent ve kavuştak içerebilir. Türkülerde yöresel söyleyiş ve toplumsal yaşantı izleri bulunur."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Koşuk ile türkü hangi bakımdan ilişkilidir?",
+    "options": [
+      "Sözlü şiir geleneği",
+      "Deneysel bilimsel yöntem",
+      "Tiyatro sahnelemesi"
+    ],
+    "answer": [
+      "Sözlü şiir geleneği"
+    ],
+    "sub": 1,
+    "id": "t9q5",
+    "subtopicId": "t9s1",
+    "explanation": "Koşuk, İslamiyet öncesi Türk şiir geleneğinde doğa, sevgi ve yiğitlik gibi konuları işleyen ürünlerdendir. Genellikle hece ölçüsü ve dörtlüklerle ilişkilendirilir. Türkü, bir ezgiyle söylenen halk şiiri ürünüdür; bent ve kavuştak içerebilir. Türkülerde yöresel söyleyiş ve toplumsal yaşantı izleri bulunur."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Redifi belirlerken neye bakılır?",
+    "options": [
+      "Tekrarlanan bölümün anlam ve görev birliğine",
+      "Yalnız harf sayısına",
+      "Şairin yaşına",
+      "Dize sayısının çift olmasına"
+    ],
+    "answer": [
+      "Tekrarlanan bölümün anlam ve görev birliğine"
+    ],
+    "sub": 0,
+    "id": "t10q1",
+    "subtopicId": "t10s0",
+    "explanation": "Şiirde ahenk; ölçü, uyak, redif, ses tekrarları ve söyleyişin birlikte oluşturduğu ritmik etkidir. Uyak, dize sonlarında anlam ve görevleri farklı sözcüklerdeki ses benzerliğidir. Redif, aynı görevdeki eklerin veya aynı anlamdaki sözcüklerin tekrarıdır. Her ses benzerliği uyak sayılmaz."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Şiirde ahenk; ölçü, uyak, redif, ses tekrarları ve söyleyişin birlikte oluşturduğu ritmik etkidir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t10q2",
+    "subtopicId": "t10s0",
+    "explanation": "Şiirde ahenk; ölçü, uyak, redif, ses tekrarları ve söyleyişin birlikte oluşturduğu ritmik etkidir. Uyak, dize sonlarında anlam ve görevleri farklı sözcüklerdeki ses benzerliğidir. Redif, aynı görevdeki eklerin veya aynı anlamdaki sözcüklerin tekrarıdır. Her ses benzerliği uyak sayılmaz."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Dize sonundaki her ses tekrarı kesinlikle uyaktır.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t10q3",
+    "subtopicId": "t10s1",
+    "explanation": "Şiirde ahenk; ölçü, uyak, redif, ses tekrarları ve söyleyişin birlikte oluşturduğu ritmik etkidir. Uyak, dize sonlarında anlam ve görevleri farklı sözcüklerdeki ses benzerliğidir. Redif, aynı görevdeki eklerin veya aynı anlamdaki sözcüklerin tekrarıdır. Her ses benzerliği uyak sayılmaz."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Aynı anlam ve görevdeki ek ya da sözcüklerin dize sonunda tekrarına ne denir?",
+    "options": [],
+    "answer": [
+      "redif"
+    ],
+    "sub": 2,
+    "id": "t10q4",
+    "subtopicId": "t10s2",
+    "explanation": "Şiirde ahenk; ölçü, uyak, redif, ses tekrarları ve söyleyişin birlikte oluşturduğu ritmik etkidir. Uyak, dize sonlarında anlam ve görevleri farklı sözcüklerdeki ses benzerliğidir. Redif, aynı görevdeki eklerin veya aynı anlamdaki sözcüklerin tekrarıdır. Her ses benzerliği uyak sayılmaz."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Şiirde ahenge katkıda bulunan unsur hangisidir?",
+    "options": [
+      "Ses tekrarları",
+      "Yalnız yayınevi adı",
+      "Yalnız sayfa numarası"
+    ],
+    "answer": [
+      "Ses tekrarları"
+    ],
+    "sub": 1,
+    "id": "t10q5",
+    "subtopicId": "t10s1",
+    "explanation": "Şiirde ahenk; ölçü, uyak, redif, ses tekrarları ve söyleyişin birlikte oluşturduğu ritmik etkidir. Uyak, dize sonlarında anlam ve görevleri farklı sözcüklerdeki ses benzerliğidir. Redif, aynı görevdeki eklerin veya aynı anlamdaki sözcüklerin tekrarıdır. Her ses benzerliği uyak sayılmaz."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Gazel ve kasidenin ortak nazım birimi hangisidir?",
+    "options": [
+      "Beyit",
+      "Dörtlük zorunluluğu",
+      "Paragraf",
+      "Perde"
+    ],
+    "answer": [
+      "Beyit"
+    ],
+    "sub": 0,
+    "id": "t11q1",
+    "subtopicId": "t11s0",
+    "explanation": "Gazel ve kaside, divan edebiyatında beyitlerle kurulan nazım biçimleridir. Gazelde aşk, güzellik ve hayat üzerine düşünceler sık işlenir; kaside çoğunlukla övgü amacı taşır. Klasik düzende uyak örgüsü aa, ba, ca biçiminde ilerler. İlk beyit matla, son beyit makta olarak adlandırılır."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Gazel ve kaside, divan edebiyatında beyitlerle kurulan nazım biçimleridir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t11q2",
+    "subtopicId": "t11s0",
+    "explanation": "Gazel ve kaside, divan edebiyatında beyitlerle kurulan nazım biçimleridir. Gazelde aşk, güzellik ve hayat üzerine düşünceler sık işlenir; kaside çoğunlukla övgü amacı taşır. Klasik düzende uyak örgüsü aa, ba, ca biçiminde ilerler. İlk beyit matla, son beyit makta olarak adlandırılır."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Gazel ile kasideyi yalnızca uyak düzeninden kesin olarak ayırabiliriz.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t11q3",
+    "subtopicId": "t11s1",
+    "explanation": "Gazel ve kaside, divan edebiyatında beyitlerle kurulan nazım biçimleridir. Gazelde aşk, güzellik ve hayat üzerine düşünceler sık işlenir; kaside çoğunlukla övgü amacı taşır. Klasik düzende uyak örgüsü aa, ba, ca biçiminde ilerler. İlk beyit matla, son beyit makta olarak adlandırılır."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Gazel ve kasidede ilk beytin adı nedir?",
+    "options": [],
+    "answer": [
+      "matla"
+    ],
+    "sub": 2,
+    "id": "t11q4",
+    "subtopicId": "t11s2",
+    "explanation": "Gazel ve kaside, divan edebiyatında beyitlerle kurulan nazım biçimleridir. Gazelde aşk, güzellik ve hayat üzerine düşünceler sık işlenir; kaside çoğunlukla övgü amacı taşır. Klasik düzende uyak örgüsü aa, ba, ca biçiminde ilerler. İlk beyit matla, son beyit makta olarak adlandırılır."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Kasidenin yaygın yazılma amacı nedir?",
+    "options": [
+      "Övgü",
+      "Günlük tutma",
+      "Bilimsel deney raporlama"
+    ],
+    "answer": [
+      "Övgü"
+    ],
+    "sub": 1,
+    "id": "t11q5",
+    "subtopicId": "t11s1",
+    "explanation": "Gazel ve kaside, divan edebiyatında beyitlerle kurulan nazım biçimleridir. Gazelde aşk, güzellik ve hayat üzerine düşünceler sık işlenir; kaside çoğunlukla övgü amacı taşır. Klasik düzende uyak örgüsü aa, ba, ca biçiminde ilerler. İlk beyit matla, son beyit makta olarak adlandırılır."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Şiiri yorumlarken en sağlam dayanak nedir?",
+    "options": [
+      "Metindeki söz ve imge ilişkileri",
+      "Şair hakkında tahminler",
+      "Yalnız şiirin uzunluğu",
+      "Okurun hiçbir kanıta dayanmayan yargısı"
+    ],
+    "answer": [
+      "Metindeki söz ve imge ilişkileri"
+    ],
+    "sub": 0,
+    "id": "t12q1",
+    "subtopicId": "t12s0",
+    "explanation": "Şiirde söyleyici, şiirin sesini taşıyan kurmaca öznedir. Her şiirde doğrudan şairin yaşamını anlattığı varsayılmaz. Tema temel duygu ya da düşüncedir; konu bunun şiirde hangi durumla ele alındığıdır. Yorum, imgeler ve söyleyişten elde edilen kanıtlarla desteklenmelidir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Şiirde söyleyici, şiirin sesini taşıyan kurmaca öznedir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t12q2",
+    "subtopicId": "t12s0",
+    "explanation": "Şiirde söyleyici, şiirin sesini taşıyan kurmaca öznedir. Her şiirde doğrudan şairin yaşamını anlattığı varsayılmaz. Tema temel duygu ya da düşüncedir; konu bunun şiirde hangi durumla ele alındığıdır. Yorum, imgeler ve söyleyişten elde edilen kanıtlarla desteklenmelidir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Şiirdeki söyleyicinin yaşadıkları mutlaka şairin gerçek yaşantısıdır.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t12q3",
+    "subtopicId": "t12s1",
+    "explanation": "Şiirde söyleyici, şiirin sesini taşıyan kurmaca öznedir. Her şiirde doğrudan şairin yaşamını anlattığı varsayılmaz. Tema temel duygu ya da düşüncedir; konu bunun şiirde hangi durumla ele alındığıdır. Yorum, imgeler ve söyleyişten elde edilen kanıtlarla desteklenmelidir."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Şiirdeki kurmaca sesin adı nedir?",
+    "options": [],
+    "answer": [
+      "söyleyici"
+    ],
+    "sub": 2,
+    "id": "t12q4",
+    "subtopicId": "t12s2",
+    "explanation": "Şiirde söyleyici, şiirin sesini taşıyan kurmaca öznedir. Her şiirde doğrudan şairin yaşamını anlattığı varsayılmaz. Tema temel duygu ya da düşüncedir; konu bunun şiirde hangi durumla ele alındığıdır. Yorum, imgeler ve söyleyişten elde edilen kanıtlarla desteklenmelidir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Şiirde tema neyi ifade eder?",
+    "options": [
+      "Temel duygu veya düşünceyi",
+      "Yalnız başlıktaki sözcüğü",
+      "Şairin adresini"
+    ],
+    "answer": [
+      "Temel duygu veya düşünceyi"
+    ],
+    "sub": 1,
+    "id": "t12q5",
+    "subtopicId": "t12s1",
+    "explanation": "Şiirde söyleyici, şiirin sesini taşıyan kurmaca öznedir. Her şiirde doğrudan şairin yaşamını anlattığı varsayılmaz. Tema temel duygu ya da düşüncedir; konu bunun şiirde hangi durumla ele alındığıdır. Yorum, imgeler ve söyleyişten elde edilen kanıtlarla desteklenmelidir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Belli bir şair tarafından oluşturulan destan nasıl adlandırılır?",
+    "options": [
+      "Yapma destan",
+      "Doğal destan",
+      "Anonim mani",
+      "Günlük"
+    ],
+    "answer": [
+      "Yapma destan"
+    ],
+    "sub": 0,
+    "id": "t13q1",
+    "subtopicId": "t13s0",
+    "explanation": "Destanlar toplumların belleğinde iz bırakan savaş, göç ve olağanüstü kahramanlıkları anlatabilir. Doğal destanlar sözlü gelenekte oluşup zamanla derlenir; yapma destanlar belli bir sanatçı tarafından yazılır. Efsaneler bir yer, kişi veya olay çevresinde oluşan, halk arasında inanış niteliği taşıyan anlatılardır."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Destanlar toplumların belleğinde iz bırakan savaş, göç ve olağanüstü kahramanlıkları anlatabilir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t13q2",
+    "subtopicId": "t13s0",
+    "explanation": "Destanlar toplumların belleğinde iz bırakan savaş, göç ve olağanüstü kahramanlıkları anlatabilir. Doğal destanlar sözlü gelenekte oluşup zamanla derlenir; yapma destanlar belli bir sanatçı tarafından yazılır. Efsaneler bir yer, kişi veya olay çevresinde oluşan, halk arasında inanış niteliği taşıyan anlatılardır."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Doğal destan tek bir sanatçının baştan yazdığı eserdir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t13q3",
+    "subtopicId": "t13s1",
+    "explanation": "Destanlar toplumların belleğinde iz bırakan savaş, göç ve olağanüstü kahramanlıkları anlatabilir. Doğal destanlar sözlü gelenekte oluşup zamanla derlenir; yapma destanlar belli bir sanatçı tarafından yazılır. Efsaneler bir yer, kişi veya olay çevresinde oluşan, halk arasında inanış niteliği taşıyan anlatılardır."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Halk arasında bir yerin oluşumunu inanışla açıklayan anlatı türü nedir?",
+    "options": [],
+    "answer": [
+      "efsane"
+    ],
+    "sub": 2,
+    "id": "t13q4",
+    "subtopicId": "t13s2",
+    "explanation": "Destanlar toplumların belleğinde iz bırakan savaş, göç ve olağanüstü kahramanlıkları anlatabilir. Doğal destanlar sözlü gelenekte oluşup zamanla derlenir; yapma destanlar belli bir sanatçı tarafından yazılır. Efsaneler bir yer, kişi veya olay çevresinde oluşan, halk arasında inanış niteliği taşıyan anlatılardır."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Doğal destanlar nasıl oluşur?",
+    "options": [
+      "Sözlü gelenekte gelişip zamanla derlenir",
+      "Yalnız gazetede yayımlanır",
+      "Her zaman tek kişi tarafından bir günde yazılır"
+    ],
+    "answer": [
+      "Sözlü gelenekte gelişip zamanla derlenir"
+    ],
+    "sub": 1,
+    "id": "t13q5",
+    "subtopicId": "t13s1",
+    "explanation": "Destanlar toplumların belleğinde iz bırakan savaş, göç ve olağanüstü kahramanlıkları anlatabilir. Doğal destanlar sözlü gelenekte oluşup zamanla derlenir; yapma destanlar belli bir sanatçı tarafından yazılır. Efsaneler bir yer, kişi veya olay çevresinde oluşan, halk arasında inanış niteliği taşıyan anlatılardır."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Mesnevinin tipik uyak düzeni nedir?",
+    "options": [
+      "aa, bb, cc",
+      "aa, ba, ca",
+      "abab, cdcd",
+      "Uyak zorunlu olarak yoktur"
+    ],
+    "answer": [
+      "aa, bb, cc"
+    ],
+    "sub": 0,
+    "id": "t14q1",
+    "subtopicId": "t14s0",
+    "explanation": "Mesnevi, her beytin kendi içinde uyaklandığı aa, bb, cc düzeniyle uzun anlatılara elverişli bir nazım biçimidir. Modern hikâye düzyazıyla kurulur ve olay, kişi, zaman, mekân gibi yapı unsurları kullanır. Anlatı geleneği değişirken aşk, yolculuk ve çatışma gibi izlekler yeni biçimlerde devam edebilir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Mesnevi, her beytin kendi içinde uyaklandığı aa, bb, cc düzeniyle uzun anlatılara elverişli bir nazım biçimidir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t14q2",
+    "subtopicId": "t14s0",
+    "explanation": "Mesnevi, her beytin kendi içinde uyaklandığı aa, bb, cc düzeniyle uzun anlatılara elverişli bir nazım biçimidir. Modern hikâye düzyazıyla kurulur ve olay, kişi, zaman, mekân gibi yapı unsurları kullanır. Anlatı geleneği değişirken aşk, yolculuk ve çatışma gibi izlekler yeni biçimlerde devam edebilir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Mesnevide bütün beyitler tek bir uyağa bağlanmak zorundadır.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t14q3",
+    "subtopicId": "t14s1",
+    "explanation": "Mesnevi, her beytin kendi içinde uyaklandığı aa, bb, cc düzeniyle uzun anlatılara elverişli bir nazım biçimidir. Modern hikâye düzyazıyla kurulur ve olay, kişi, zaman, mekân gibi yapı unsurları kullanır. Anlatı geleneği değişirken aşk, yolculuk ve çatışma gibi izlekler yeni biçimlerde devam edebilir."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "aa, bb, cc biçiminde uyaklanan uzun anlatı nazım biçimi nedir?",
+    "options": [],
+    "answer": [
+      "mesnevi"
+    ],
+    "sub": 2,
+    "id": "t14q4",
+    "subtopicId": "t14s2",
+    "explanation": "Mesnevi, her beytin kendi içinde uyaklandığı aa, bb, cc düzeniyle uzun anlatılara elverişli bir nazım biçimidir. Modern hikâye düzyazıyla kurulur ve olay, kişi, zaman, mekân gibi yapı unsurları kullanır. Anlatı geleneği değişirken aşk, yolculuk ve çatışma gibi izlekler yeni biçimlerde devam edebilir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Modern hikâyenin mesneviden biçimsel farkı nedir?",
+    "options": [
+      "Düzyazıyla kurulması",
+      "Mutlaka gerçek olay olması",
+      "Hiç kişisinin olmaması"
+    ],
+    "answer": [
+      "Düzyazıyla kurulması"
+    ],
+    "sub": 1,
+    "id": "t14q5",
+    "subtopicId": "t14s1",
+    "explanation": "Mesnevi, her beytin kendi içinde uyaklandığı aa, bb, cc düzeniyle uzun anlatılara elverişli bir nazım biçimidir. Modern hikâye düzyazıyla kurulur ve olay, kişi, zaman, mekân gibi yapı unsurları kullanır. Anlatı geleneği değişirken aşk, yolculuk ve çatışma gibi izlekler yeni biçimlerde devam edebilir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Halk hikâyelerinin anlatımında hangisi görülebilir?",
+    "options": [
+      "Nazım ve nesrin birlikte kullanılması",
+      "Yalnız bilimsel terimler",
+      "Sadece sahne yönergeleri",
+      "Hiçbir olay bulunmaması"
+    ],
+    "answer": [
+      "Nazım ve nesrin birlikte kullanılması"
+    ],
+    "sub": 0,
+    "id": "t15q1",
+    "subtopicId": "t15s0",
+    "explanation": "Halk hikâyelerinde aşk ve kahramanlık gibi konular sözlü anlatım geleneği içinde işlenir. Nazım ve nesir bir arada bulunabilir; anlatıcı olayları düzyazıyla aktarırken duygulu bölümlerde şiire başvurabilir. Olağanüstü unsurlar ile günlük hayatın izleri yan yana yer alabilir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Halk hikâyelerinde aşk ve kahramanlık gibi konular sözlü anlatım geleneği içinde işlenir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t15q2",
+    "subtopicId": "t15s0",
+    "explanation": "Halk hikâyelerinde aşk ve kahramanlık gibi konular sözlü anlatım geleneği içinde işlenir. Nazım ve nesir bir arada bulunabilir; anlatıcı olayları düzyazıyla aktarırken duygulu bölümlerde şiire başvurabilir. Olağanüstü unsurlar ile günlük hayatın izleri yan yana yer alabilir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Halk hikâyelerinde şiir bölümleri bulunamaz.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t15q3",
+    "subtopicId": "t15s1",
+    "explanation": "Halk hikâyelerinde aşk ve kahramanlık gibi konular sözlü anlatım geleneği içinde işlenir. Nazım ve nesir bir arada bulunabilir; anlatıcı olayları düzyazıyla aktarırken duygulu bölümlerde şiire başvurabilir. Olağanüstü unsurlar ile günlük hayatın izleri yan yana yer alabilir."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Halk hikâyesindeki düzyazı bölümünün biçim adı nedir?",
+    "options": [],
+    "answer": [
+      "nesir",
+      "düzyazı"
+    ],
+    "sub": 2,
+    "id": "t15q4",
+    "subtopicId": "t15s2",
+    "explanation": "Halk hikâyelerinde aşk ve kahramanlık gibi konular sözlü anlatım geleneği içinde işlenir. Nazım ve nesir bir arada bulunabilir; anlatıcı olayları düzyazıyla aktarırken duygulu bölümlerde şiire başvurabilir. Olağanüstü unsurlar ile günlük hayatın izleri yan yana yer alabilir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Kerem ile Aslı hangi gelenekle ilişkilidir?",
+    "options": [
+      "Halk hikâyesi",
+      "Bilimsel makale",
+      "Modern günlük"
+    ],
+    "answer": [
+      "Halk hikâyesi"
+    ],
+    "sub": 1,
+    "id": "t15q5",
+    "subtopicId": "t15s1",
+    "explanation": "Halk hikâyelerinde aşk ve kahramanlık gibi konular sözlü anlatım geleneği içinde işlenir. Nazım ve nesir bir arada bulunabilir; anlatıcı olayları düzyazıyla aktarırken duygulu bölümlerde şiire başvurabilir. Olağanüstü unsurlar ile günlük hayatın izleri yan yana yer alabilir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Edebî metindeki bir gelenek tasviri nasıl kullanılmalıdır?",
+    "options": [
+      "Bağlamı ve kurmaca niteliği değerlendirilerek",
+      "Kesin istatistik kabul edilerek",
+      "Tüm dönemlere genellenerek",
+      "Yalnız yazar adıyla açıklanarak"
+    ],
+    "answer": [
+      "Bağlamı ve kurmaca niteliği değerlendirilerek"
+    ],
+    "sub": 0,
+    "id": "t16q1",
+    "subtopicId": "t16s0",
+    "explanation": "Kültürel bellek, bir toplumun geçmişe ilişkin anlatılarını, değerlerini ve deneyimlerini aktarma biçimleriyle oluşur. Edebî eserler dil, gelenek, toplumsal ilişki ve gündelik yaşam izlerini koruyabilir. Ancak kurmaca eser, olduğu gibi tarih belgesi sayılmaz; anlatıcının seçimi ve eserin estetik amacı hesaba katılır."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Kültürel bellek, bir toplumun geçmişe ilişkin anlatılarını, değerlerini ve deneyimlerini aktarma biçimleriyle oluşur.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t16q2",
+    "subtopicId": "t16s0",
+    "explanation": "Kültürel bellek, bir toplumun geçmişe ilişkin anlatılarını, değerlerini ve deneyimlerini aktarma biçimleriyle oluşur. Edebî eserler dil, gelenek, toplumsal ilişki ve gündelik yaşam izlerini koruyabilir. Ancak kurmaca eser, olduğu gibi tarih belgesi sayılmaz; anlatıcının seçimi ve eserin estetik amacı hesaba katılır."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Kurmaca metinde anlatılan her ayrıntı kesin bir tarihsel kanıttır.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t16q3",
+    "subtopicId": "t16s1",
+    "explanation": "Kültürel bellek, bir toplumun geçmişe ilişkin anlatılarını, değerlerini ve deneyimlerini aktarma biçimleriyle oluşur. Edebî eserler dil, gelenek, toplumsal ilişki ve gündelik yaşam izlerini koruyabilir. Ancak kurmaca eser, olduğu gibi tarih belgesi sayılmaz; anlatıcının seçimi ve eserin estetik amacı hesaba katılır."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Toplumun geçmiş deneyimlerini anlatılarla yaşatması hangi bellek türüdür?",
+    "options": [],
+    "answer": [
+      "kültürel bellek"
+    ],
+    "sub": 2,
+    "id": "t16q4",
+    "subtopicId": "t16s2",
+    "explanation": "Kültürel bellek, bir toplumun geçmişe ilişkin anlatılarını, değerlerini ve deneyimlerini aktarma biçimleriyle oluşur. Edebî eserler dil, gelenek, toplumsal ilişki ve gündelik yaşam izlerini koruyabilir. Ancak kurmaca eser, olduğu gibi tarih belgesi sayılmaz; anlatıcının seçimi ve eserin estetik amacı hesaba katılır."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Romandaki bayram sahnesi ne sağlar?",
+    "options": [
+      "Yaşayışa ilişkin yorumlanabilir ipuçları",
+      "Bütün toplum hakkında kesin istatistik",
+      "Her dönemde aynı hayatın kanıtı"
+    ],
+    "answer": [
+      "Yaşayışa ilişkin yorumlanabilir ipuçları"
+    ],
+    "sub": 1,
+    "id": "t16q5",
+    "subtopicId": "t16s1",
+    "explanation": "Kültürel bellek, bir toplumun geçmişe ilişkin anlatılarını, değerlerini ve deneyimlerini aktarma biçimleriyle oluşur. Edebî eserler dil, gelenek, toplumsal ilişki ve gündelik yaşam izlerini koruyabilir. Ancak kurmaca eser, olduğu gibi tarih belgesi sayılmaz; anlatıcının seçimi ve eserin estetik amacı hesaba katılır."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Makalede bir iddiayı güçlendiren unsur hangisidir?",
+    "options": [
+      "Güvenilir kanıt ve gerekçe",
+      "Yalnız kesin konuşmak",
+      "Tekrar edilen kişisel beğeni",
+      "Kaynağı olmayan genelleme"
+    ],
+    "answer": [
+      "Güvenilir kanıt ve gerekçe"
+    ],
+    "sub": 0,
+    "id": "t17q1",
+    "subtopicId": "t17s0",
+    "explanation": "Makale, bir düşünceyi bilgi, gerekçe ve kanıtlarla temellendirmeyi amaçlar. Deneme ise kişisel bakışını daha serbest bir örgü içinde geliştirir. Her iki tür düşünce iletir; ayrım yalnız konuya değil, amaç, üslup ve kanıtlama biçimine dayanır. Nesnel anlatım kişisel yargıyı olgudan ayırır."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Makale, bir düşünceyi bilgi, gerekçe ve kanıtlarla temellendirmeyi amaçlar.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t17q2",
+    "subtopicId": "t17s0",
+    "explanation": "Makale, bir düşünceyi bilgi, gerekçe ve kanıtlarla temellendirmeyi amaçlar. Deneme ise kişisel bakışını daha serbest bir örgü içinde geliştirir. Her iki tür düşünce iletir; ayrım yalnız konuya değil, amaç, üslup ve kanıtlama biçimine dayanır. Nesnel anlatım kişisel yargıyı olgudan ayırır."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Makale ve deneme yalnızca ele aldıkları konuya göre ayrılır.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t17q3",
+    "subtopicId": "t17s1",
+    "explanation": "Makale, bir düşünceyi bilgi, gerekçe ve kanıtlarla temellendirmeyi amaçlar. Deneme ise kişisel bakışını daha serbest bir örgü içinde geliştirir. Her iki tür düşünce iletir; ayrım yalnız konuya değil, amaç, üslup ve kanıtlama biçimine dayanır. Nesnel anlatım kişisel yargıyı olgudan ayırır."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Bir düşünceyi bilgi ve kanıtlarla temellendirmeye yönelen metin türü nedir?",
+    "options": [],
+    "answer": [
+      "makale"
+    ],
+    "sub": 2,
+    "id": "t17q4",
+    "subtopicId": "t17s2",
+    "explanation": "Makale, bir düşünceyi bilgi, gerekçe ve kanıtlarla temellendirmeyi amaçlar. Deneme ise kişisel bakışını daha serbest bir örgü içinde geliştirir. Her iki tür düşünce iletir; ayrım yalnız konuya değil, amaç, üslup ve kanıtlama biçimine dayanır. Nesnel anlatım kişisel yargıyı olgudan ayırır."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Bir metnin türünü ayırırken neye bakılır?",
+    "options": [
+      "Amaç, üslup ve kanıtlama biçimine",
+      "Yalnız kapak rengine",
+      "Yalnız paragraf sayısına"
+    ],
+    "answer": [
+      "Amaç, üslup ve kanıtlama biçimine"
+    ],
+    "sub": 1,
+    "id": "t17q5",
+    "subtopicId": "t17s1",
+    "explanation": "Makale, bir düşünceyi bilgi, gerekçe ve kanıtlarla temellendirmeyi amaçlar. Deneme ise kişisel bakışını daha serbest bir örgü içinde geliştirir. Her iki tür düşünce iletir; ayrım yalnız konuya değil, amaç, üslup ve kanıtlama biçimine dayanır. Nesnel anlatım kişisel yargıyı olgudan ayırır."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "İki kavramın benzer ve farklı yönlerini ele almak nedir?",
+    "options": [
+      "Karşılaştırma",
+      "Yalnız tanımlama",
+      "Bilinç akışı",
+      "İç monolog"
+    ],
+    "answer": [
+      "Karşılaştırma"
+    ],
+    "sub": 0,
+    "id": "t18q1",
+    "subtopicId": "t18s0",
+    "explanation": "Tanımlama bir kavramın ne olduğunu açıklar; örneklendirme soyut düşünceyi somutlaştırır. Karşılaştırma benzerlik ve farklılıkları gösterir. Tanık göstermede güvenilir kişinin sözü düşünceyi destekler. Sayısal veriler, kaynakları ve bağlamları güvenilir olduğunda kanıt değeri taşır."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Tanımlama bir kavramın ne olduğunu açıklar; örneklendirme soyut düşünceyi somutlaştırır.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t18q2",
+    "subtopicId": "t18s0",
+    "explanation": "Tanımlama bir kavramın ne olduğunu açıklar; örneklendirme soyut düşünceyi somutlaştırır. Karşılaştırma benzerlik ve farklılıkları gösterir. Tanık göstermede güvenilir kişinin sözü düşünceyi destekler. Sayısal veriler, kaynakları ve bağlamları güvenilir olduğunda kanıt değeri taşır."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Bir düşünceye örnek vermek her zaman tanık göstermedir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t18q3",
+    "subtopicId": "t18s1",
+    "explanation": "Tanımlama bir kavramın ne olduğunu açıklar; örneklendirme soyut düşünceyi somutlaştırır. Karşılaştırma benzerlik ve farklılıkları gösterir. Tanık göstermede güvenilir kişinin sözü düşünceyi destekler. Sayısal veriler, kaynakları ve bağlamları güvenilir olduğunda kanıt değeri taşır."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Soyut düşünceyi somut bir örnekle açan düşünce geliştirme yolu nedir?",
+    "options": [],
+    "answer": [
+      "örneklendirme"
+    ],
+    "sub": 2,
+    "id": "t18q4",
+    "subtopicId": "t18s2",
+    "explanation": "Tanımlama bir kavramın ne olduğunu açıklar; örneklendirme soyut düşünceyi somutlaştırır. Karşılaştırma benzerlik ve farklılıkları gösterir. Tanık göstermede güvenilir kişinin sözü düşünceyi destekler. Sayısal veriler, kaynakları ve bağlamları güvenilir olduğunda kanıt değeri taşır."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Güvenilir bir uzmanın sözünden yararlanmak nedir?",
+    "options": [
+      "Tanık gösterme",
+      "İç monolog",
+      "Geriye dönüş"
+    ],
+    "answer": [
+      "Tanık gösterme"
+    ],
+    "sub": 1,
+    "id": "t18q5",
+    "subtopicId": "t18s1",
+    "explanation": "Tanımlama bir kavramın ne olduğunu açıklar; örneklendirme soyut düşünceyi somutlaştırır. Karşılaştırma benzerlik ve farklılıkları gösterir. Tanık göstermede güvenilir kişinin sözü düşünceyi destekler. Sayısal veriler, kaynakları ve bağlamları güvenilir olduğunda kanıt değeri taşır."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Gezi yazısının temel dayanağı hangisidir?",
+    "options": [
+      "Gezilen yerlere ilişkin gözlem ve izlenimler",
+      "Yalnız hayalî gelecek olayları",
+      "Bir kişinin tüm yaşamı",
+      "Günlük bilimsel deney sonuçları"
+    ],
+    "answer": [
+      "Gezilen yerlere ilişkin gözlem ve izlenimler"
+    ],
+    "sub": 0,
+    "id": "t19q1",
+    "subtopicId": "t19s0",
+    "explanation": "Gezi yazısı, gezilip görülen yerlerin doğal, tarihî ve kültürel özelliklerini gözlemlerle anlatır. Yazarın izlenimleri bulunabilir; yine de bilgi ile kişisel yargı ayrılmalıdır. Betimleme, yerleri okurun zihninde canlandırır. Bir gezi yazısı sadece ulaşım bilgisi veren rehberden daha kişisel olabilir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Gezi yazısı, gezilip görülen yerlerin doğal, tarihî ve kültürel özelliklerini gözlemlerle anlatır.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t19q2",
+    "subtopicId": "t19s0",
+    "explanation": "Gezi yazısı, gezilip görülen yerlerin doğal, tarihî ve kültürel özelliklerini gözlemlerle anlatır. Yazarın izlenimleri bulunabilir; yine de bilgi ile kişisel yargı ayrılmalıdır. Betimleme, yerleri okurun zihninde canlandırır. Bir gezi yazısı sadece ulaşım bilgisi veren rehberden daha kişisel olabilir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Gezi yazılarında yazarın kişisel izlenimlerine yer verilmez.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t19q3",
+    "subtopicId": "t19s1",
+    "explanation": "Gezi yazısı, gezilip görülen yerlerin doğal, tarihî ve kültürel özelliklerini gözlemlerle anlatır. Yazarın izlenimleri bulunabilir; yine de bilgi ile kişisel yargı ayrılmalıdır. Betimleme, yerleri okurun zihninde canlandırır. Bir gezi yazısı sadece ulaşım bilgisi veren rehberden daha kişisel olabilir."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Gezilen yerleri gözlem ve izlenimlerle anlatan tür nedir?",
+    "options": [],
+    "answer": [
+      "gezi yazısı",
+      "seyahatname"
+    ],
+    "sub": 2,
+    "id": "t19q4",
+    "subtopicId": "t19s2",
+    "explanation": "Gezi yazısı, gezilip görülen yerlerin doğal, tarihî ve kültürel özelliklerini gözlemlerle anlatır. Yazarın izlenimleri bulunabilir; yine de bilgi ile kişisel yargı ayrılmalıdır. Betimleme, yerleri okurun zihninde canlandırır. Bir gezi yazısı sadece ulaşım bilgisi veren rehberden daha kişisel olabilir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "“Şehrin en huzurlu köşesiydi.” hangi niteliktedir?",
+    "options": [
+      "Öznel değerlendirme",
+      "Kesin sayısal veri",
+      "Tarafsız ölçüm"
+    ],
+    "answer": [
+      "Öznel değerlendirme"
+    ],
+    "sub": 1,
+    "id": "t19q5",
+    "subtopicId": "t19s1",
+    "explanation": "Gezi yazısı, gezilip görülen yerlerin doğal, tarihî ve kültürel özelliklerini gözlemlerle anlatır. Yazarın izlenimleri bulunabilir; yine de bilgi ile kişisel yargı ayrılmalıdır. Betimleme, yerleri okurun zihninde canlandırır. Bir gezi yazısı sadece ulaşım bilgisi veren rehberden daha kişisel olabilir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Bir eseri dönemiyle ilişkilendirirken hangi yaklaşım uygundur?",
+    "options": [
+      "Toplumsal koşulları ve edebî kurguyu birlikte değerlendirmek",
+      "Eseri tarih kitabıyla özdeş saymak",
+      "Yalnız baskı sayısına bakmak",
+      "Bütün kahramanları yazar saymak"
+    ],
+    "answer": [
+      "Toplumsal koşulları ve edebî kurguyu birlikte değerlendirmek"
+    ],
+    "sub": 0,
+    "id": "t20q1",
+    "subtopicId": "t20s0",
+    "explanation": "Edebiyat toplumun dilinden, değerlerinden ve değişimlerinden etkilenir; aynı zamanda toplumsal düşünceyi etkileyebilir. Metin ile dönem arasında ilişki kurarken ekonomik koşullar, siyasal ortam ve kültürel yapı dikkate alınır. Eseri yalnız dönemin aynası saymak, bireysel üslup ve kurmacayı gözden kaçırabilir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Edebiyat toplumun dilinden, değerlerinden ve değişimlerinden etkilenir; aynı zamanda toplumsal düşünceyi etkileyebilir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t20q2",
+    "subtopicId": "t20s0",
+    "explanation": "Edebiyat toplumun dilinden, değerlerinden ve değişimlerinden etkilenir; aynı zamanda toplumsal düşünceyi etkileyebilir. Metin ile dönem arasında ilişki kurarken ekonomik koşullar, siyasal ortam ve kültürel yapı dikkate alınır. Eseri yalnız dönemin aynası saymak, bireysel üslup ve kurmacayı gözden kaçırabilir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Edebiyatın toplum üzerinde hiçbir etkisi olamaz.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t20q3",
+    "subtopicId": "t20s1",
+    "explanation": "Edebiyat toplumun dilinden, değerlerinden ve değişimlerinden etkilenir; aynı zamanda toplumsal düşünceyi etkileyebilir. Metin ile dönem arasında ilişki kurarken ekonomik koşullar, siyasal ortam ve kültürel yapı dikkate alınır. Eseri yalnız dönemin aynası saymak, bireysel üslup ve kurmacayı gözden kaçırabilir."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Edebî metnin gerçeklikten yararlanarak oluşturduğu tasarlanmış dünyaya ne denir?",
+    "options": [],
+    "answer": [
+      "kurmaca"
+    ],
+    "sub": 2,
+    "id": "t20q4",
+    "subtopicId": "t20s2",
+    "explanation": "Edebiyat toplumun dilinden, değerlerinden ve değişimlerinden etkilenir; aynı zamanda toplumsal düşünceyi etkileyebilir. Metin ile dönem arasında ilişki kurarken ekonomik koşullar, siyasal ortam ve kültürel yapı dikkate alınır. Eseri yalnız dönemin aynası saymak, bireysel üslup ve kurmacayı gözden kaçırabilir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Metni yalnız dönemin aynası saymak neyi gözden kaçırabilir?",
+    "options": [
+      "Üslup ve kurmacayı",
+      "Kitabın basılı olduğunu",
+      "Sözcüklerin varlığını"
+    ],
+    "answer": [
+      "Üslup ve kurmacayı"
+    ],
+    "sub": 1,
+    "id": "t20q5",
+    "subtopicId": "t20s1",
+    "explanation": "Edebiyat toplumun dilinden, değerlerinden ve değişimlerinden etkilenir; aynı zamanda toplumsal düşünceyi etkileyebilir. Metin ile dönem arasında ilişki kurarken ekonomik koşullar, siyasal ortam ve kültürel yapı dikkate alınır. Eseri yalnız dönemin aynası saymak, bireysel üslup ve kurmacayı gözden kaçırabilir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Anıyı günlükten ayıran temel özellik hangisidir?",
+    "options": [
+      "Olayların üzerinden zaman geçtikten sonra yazılması",
+      "Hiç yaşantı içermemesi",
+      "Her zaman üçüncü kişiyle yazılması",
+      "Yalnız bilimsel bilgi vermesi"
+    ],
+    "answer": [
+      "Olayların üzerinden zaman geçtikten sonra yazılması"
+    ],
+    "sub": 0,
+    "id": "t21q1",
+    "subtopicId": "t21s0",
+    "explanation": "Günlük, yaşananların çoğunlukla günü gününe kaydedildiği türdür. Anı, geçmişte yaşananların daha sonra hatırlanarak yazılmasıdır. İkisinde de kişisel bakış vardır. Anıda zamanın geçmesi seçimi ve yorumu etkiler; günlük de tamamen tarafsız bir kayıt değildir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Günlük, yaşananların çoğunlukla günü gününe kaydedildiği türdür.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t21q2",
+    "subtopicId": "t21s0",
+    "explanation": "Günlük, yaşananların çoğunlukla günü gününe kaydedildiği türdür. Anı, geçmişte yaşananların daha sonra hatırlanarak yazılmasıdır. İkisinde de kişisel bakış vardır. Anıda zamanın geçmesi seçimi ve yorumu etkiler; günlük de tamamen tarafsız bir kayıt değildir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Anı ve günlük her zaman olayla aynı gün yazılır.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t21q3",
+    "subtopicId": "t21s1",
+    "explanation": "Günlük, yaşananların çoğunlukla günü gününe kaydedildiği türdür. Anı, geçmişte yaşananların daha sonra hatırlanarak yazılmasıdır. İkisinde de kişisel bakış vardır. Anıda zamanın geçmesi seçimi ve yorumu etkiler; günlük de tamamen tarafsız bir kayıt değildir."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Yaşantıların çoğunlukla günü gününe yazıldığı tür nedir?",
+    "options": [],
+    "answer": [
+      "günlük",
+      "günce"
+    ],
+    "sub": 2,
+    "id": "t21q4",
+    "subtopicId": "t21s2",
+    "explanation": "Günlük, yaşananların çoğunlukla günü gününe kaydedildiği türdür. Anı, geçmişte yaşananların daha sonra hatırlanarak yazılmasıdır. İkisinde de kişisel bakış vardır. Anıda zamanın geçmesi seçimi ve yorumu etkiler; günlük de tamamen tarafsız bir kayıt değildir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Anıda zamanın geçmesi neyi etkileyebilir?",
+    "options": [
+      "Olayların seçimini ve yorumunu",
+      "Olayın hiç yaşanmamış olmasını zorunlu kılar",
+      "Anlatının nesnel olmasını garanti eder"
+    ],
+    "answer": [
+      "Olayların seçimini ve yorumunu"
+    ],
+    "sub": 1,
+    "id": "t21q5",
+    "subtopicId": "t21s1",
+    "explanation": "Günlük, yaşananların çoğunlukla günü gününe kaydedildiği türdür. Anı, geçmişte yaşananların daha sonra hatırlanarak yazılmasıdır. İkisinde de kişisel bakış vardır. Anıda zamanın geçmesi seçimi ve yorumu etkiler; günlük de tamamen tarafsız bir kayıt değildir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Bir kişinin hayatını başka birinin yazdığı tür hangisidir?",
+    "options": [
+      "Biyografi",
+      "Otobiyografi",
+      "Günlük",
+      "İç monolog"
+    ],
+    "answer": [
+      "Biyografi"
+    ],
+    "sub": 0,
+    "id": "t22q1",
+    "subtopicId": "t22s0",
+    "explanation": "Biyografi bir kişinin yaşamının başka biri tarafından anlatılmasıdır. Otobiyografide kişi kendi yaşamını anlatır. Yaşam öyküsü oluşturulurken olayların kronolojisi ve kaynakların güvenilirliği önemlidir. Otobiyografi birinci elden bilgi verir ama kişinin seçimi ve yorumu nedeniyle bütünüyle tarafsız değildir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Biyografi bir kişinin yaşamının başka biri tarafından anlatılmasıdır.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t22q2",
+    "subtopicId": "t22s0",
+    "explanation": "Biyografi bir kişinin yaşamının başka biri tarafından anlatılmasıdır. Otobiyografide kişi kendi yaşamını anlatır. Yaşam öyküsü oluşturulurken olayların kronolojisi ve kaynakların güvenilirliği önemlidir. Otobiyografi birinci elden bilgi verir ama kişinin seçimi ve yorumu nedeniyle bütünüyle tarafsız değildir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Otobiyografiyi kişinin yaşamını araştıran başka biri yazar.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t22q3",
+    "subtopicId": "t22s1",
+    "explanation": "Biyografi bir kişinin yaşamının başka biri tarafından anlatılmasıdır. Otobiyografide kişi kendi yaşamını anlatır. Yaşam öyküsü oluşturulurken olayların kronolojisi ve kaynakların güvenilirliği önemlidir. Otobiyografi birinci elden bilgi verir ama kişinin seçimi ve yorumu nedeniyle bütünüyle tarafsız değildir."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Kişinin kendi yaşamını anlattığı tür nedir?",
+    "options": [],
+    "answer": [
+      "otobiyografi"
+    ],
+    "sub": 2,
+    "id": "t22q4",
+    "subtopicId": "t22s2",
+    "explanation": "Biyografi bir kişinin yaşamının başka biri tarafından anlatılmasıdır. Otobiyografide kişi kendi yaşamını anlatır. Yaşam öyküsü oluşturulurken olayların kronolojisi ve kaynakların güvenilirliği önemlidir. Otobiyografi birinci elden bilgi verir ama kişinin seçimi ve yorumu nedeniyle bütünüyle tarafsız değildir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Otobiyografinin tarafsızlığı neden sorgulanır?",
+    "options": [
+      "Kişisel seçim ve yorum içerebilir",
+      "Her zaman üçüncü kişi yazmıştır",
+      "Hiç yaşantı içermez"
+    ],
+    "answer": [
+      "Kişisel seçim ve yorum içerebilir"
+    ],
+    "sub": 1,
+    "id": "t22q5",
+    "subtopicId": "t22s1",
+    "explanation": "Biyografi bir kişinin yaşamının başka biri tarafından anlatılmasıdır. Otobiyografide kişi kendi yaşamını anlatır. Yaşam öyküsü oluşturulurken olayların kronolojisi ve kaynakların güvenilirliği önemlidir. Otobiyografi birinci elden bilgi verir ama kişinin seçimi ve yorumu nedeniyle bütünüyle tarafsız değildir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Gerçekçi bir roman için hangi yargı doğrudur?",
+    "options": [
+      "Kurmaca olayları inandırıcı biçimde anlatabilir",
+      "Bütün olayları belgeli olmak zorundadır",
+      "İç dünya anlatılamaz",
+      "Zaman ve mekân kullanılamaz"
+    ],
+    "answer": [
+      "Kurmaca olayları inandırıcı biçimde anlatabilir"
+    ],
+    "sub": 0,
+    "id": "t23q1",
+    "subtopicId": "t23s0",
+    "explanation": "Roman, kişiler ve olaylar arasında geniş ilişkiler kurabilen kurmaca anlatıdır. Gerçekçi anlatım, gündelik hayatı ve toplumsal koşulları inandırıcı ayrıntılarla verebilir. Gerçekçi bir romanın bütün olaylarının yaşanmış olması gerekmez. Tip belirli bir toplumsal özelliği temsil ederken karakter daha bireysel özellikleriyle öne çıkabilir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Roman, kişiler ve olaylar arasında geniş ilişkiler kurabilen kurmaca anlatıdır.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t23q2",
+    "subtopicId": "t23s0",
+    "explanation": "Roman, kişiler ve olaylar arasında geniş ilişkiler kurabilen kurmaca anlatıdır. Gerçekçi anlatım, gündelik hayatı ve toplumsal koşulları inandırıcı ayrıntılarla verebilir. Gerçekçi bir romanın bütün olaylarının yaşanmış olması gerekmez. Tip belirli bir toplumsal özelliği temsil ederken karakter daha bireysel özellikleriyle öne çıkabilir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Gerçekçi romandaki tüm olaylar gerçekten yaşanmak zorundadır.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t23q3",
+    "subtopicId": "t23s1",
+    "explanation": "Roman, kişiler ve olaylar arasında geniş ilişkiler kurabilen kurmaca anlatıdır. Gerçekçi anlatım, gündelik hayatı ve toplumsal koşulları inandırıcı ayrıntılarla verebilir. Gerçekçi bir romanın bütün olaylarının yaşanmış olması gerekmez. Tip belirli bir toplumsal özelliği temsil ederken karakter daha bireysel özellikleriyle öne çıkabilir."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Bir romandaki bireysel özellikleriyle öne çıkan kişiye ne denir?",
+    "options": [],
+    "answer": [
+      "karakter"
+    ],
+    "sub": 2,
+    "id": "t23q4",
+    "subtopicId": "t23s2",
+    "explanation": "Roman, kişiler ve olaylar arasında geniş ilişkiler kurabilen kurmaca anlatıdır. Gerçekçi anlatım, gündelik hayatı ve toplumsal koşulları inandırıcı ayrıntılarla verebilir. Gerçekçi bir romanın bütün olaylarının yaşanmış olması gerekmez. Tip belirli bir toplumsal özelliği temsil ederken karakter daha bireysel özellikleriyle öne çıkabilir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Romanda tip için hangi ifade daha uygundur?",
+    "options": [
+      "Belirli bir toplumsal özelliği temsil edebilir",
+      "Her zaman eserin yazarıdır",
+      "Yalnız cansız varlıktır"
+    ],
+    "answer": [
+      "Belirli bir toplumsal özelliği temsil edebilir"
+    ],
+    "sub": 1,
+    "id": "t23q5",
+    "subtopicId": "t23s1",
+    "explanation": "Roman, kişiler ve olaylar arasında geniş ilişkiler kurabilen kurmaca anlatıdır. Gerçekçi anlatım, gündelik hayatı ve toplumsal koşulları inandırıcı ayrıntılarla verebilir. Gerçekçi bir romanın bütün olaylarının yaşanmış olması gerekmez. Tip belirli bir toplumsal özelliği temsil ederken karakter daha bireysel özellikleriyle öne çıkabilir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "“(Işıklar yavaşça söner.)” ifadesinin görevi nedir?",
+    "options": [
+      "Sahnelemeyi yönlendirmek",
+      "Anlatıcıyı biyografiye dönüştürmek",
+      "Uyak oluşturmak",
+      "Makaleye kanıt eklemek"
+    ],
+    "answer": [
+      "Sahnelemeyi yönlendirmek"
+    ],
+    "sub": 0,
+    "id": "t24q1",
+    "subtopicId": "t24s0",
+    "explanation": "Tiyatro, sahnede canlandırılmak üzere yazılan veya oynanan dramatik yapıttır. Diyalog, kişilerin karşılıklı konuşmasıdır; monolog tek kişinin konuşmasıdır. Çatışma dramatik hareketi sağlar. Sahne yönergeleri hareket, dekor, ses veya söyleyiş hakkında bilgi verir; her zaman seyirciye okunmaz."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Tiyatro, sahnede canlandırılmak üzere yazılan veya oynanan dramatik yapıttır.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t24q2",
+    "subtopicId": "t24s0",
+    "explanation": "Tiyatro, sahnede canlandırılmak üzere yazılan veya oynanan dramatik yapıttır. Diyalog, kişilerin karşılıklı konuşmasıdır; monolog tek kişinin konuşmasıdır. Çatışma dramatik hareketi sağlar. Sahne yönergeleri hareket, dekor, ses veya söyleyiş hakkında bilgi verir; her zaman seyirciye okunmaz."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Sahne yönergeleri yalnızca seyircinin okuyacağı şiirlerdir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t24q3",
+    "subtopicId": "t24s1",
+    "explanation": "Tiyatro, sahnede canlandırılmak üzere yazılan veya oynanan dramatik yapıttır. Diyalog, kişilerin karşılıklı konuşmasıdır; monolog tek kişinin konuşmasıdır. Çatışma dramatik hareketi sağlar. Sahne yönergeleri hareket, dekor, ses veya söyleyiş hakkında bilgi verir; her zaman seyirciye okunmaz."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Tiyatrodaki karşılıklı konuşmaya ne denir?",
+    "options": [],
+    "answer": [
+      "diyalog"
+    ],
+    "sub": 2,
+    "id": "t24q4",
+    "subtopicId": "t24s2",
+    "explanation": "Tiyatro, sahnede canlandırılmak üzere yazılan veya oynanan dramatik yapıttır. Diyalog, kişilerin karşılıklı konuşmasıdır; monolog tek kişinin konuşmasıdır. Çatışma dramatik hareketi sağlar. Sahne yönergeleri hareket, dekor, ses veya söyleyiş hakkında bilgi verir; her zaman seyirciye okunmaz."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Dramatik hareketi sağlayan temel unsur hangisidir?",
+    "options": [
+      "Çatışma",
+      "Kaynakça",
+      "Redif"
+    ],
+    "answer": [
+      "Çatışma"
+    ],
+    "sub": 1,
+    "id": "t24q5",
+    "subtopicId": "t24s1",
+    "explanation": "Tiyatro, sahnede canlandırılmak üzere yazılan veya oynanan dramatik yapıttır. Diyalog, kişilerin karşılıklı konuşmasıdır; monolog tek kişinin konuşmasıdır. Çatışma dramatik hareketi sağlar. Sahne yönergeleri hareket, dekor, ses veya söyleyiş hakkında bilgi verir; her zaman seyirciye okunmaz."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Kişinin düşüncelerinin kendi sesiyle verilmesi hangisidir?",
+    "options": [
+      "İç monolog",
+      "Dış betimleme",
+      "Sahne yönergesi",
+      "Kaynakça"
+    ],
+    "answer": [
+      "İç monolog"
+    ],
+    "sub": 0,
+    "id": "t25q1",
+    "subtopicId": "t25s0",
+    "explanation": "Bireyin iç dünyasını öne çıkaran anlatılar duygu, düşünce, kaygı ve hatırlama süreçlerine odaklanır. İç çözümlemede anlatıcı kişinin ruh hâlini yorumlar; iç monologda kişinin zihninden geçenler kendi sesiyle aktarılır. Dış olayların azlığı, metinde çatışma olmadığı anlamına gelmez."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Bireyin iç dünyasını öne çıkaran anlatılar duygu, düşünce, kaygı ve hatırlama süreçlerine odaklanır.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t25q2",
+    "subtopicId": "t25s0",
+    "explanation": "Bireyin iç dünyasını öne çıkaran anlatılar duygu, düşünce, kaygı ve hatırlama süreçlerine odaklanır. İç çözümlemede anlatıcı kişinin ruh hâlini yorumlar; iç monologda kişinin zihninden geçenler kendi sesiyle aktarılır. Dış olayların azlığı, metinde çatışma olmadığı anlamına gelmez."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Dış olayların az olması metinde hiç çatışma bulunmadığını gösterir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t25q3",
+    "subtopicId": "t25s1",
+    "explanation": "Bireyin iç dünyasını öne çıkaran anlatılar duygu, düşünce, kaygı ve hatırlama süreçlerine odaklanır. İç çözümlemede anlatıcı kişinin ruh hâlini yorumlar; iç monologda kişinin zihninden geçenler kendi sesiyle aktarılır. Dış olayların azlığı, metinde çatışma olmadığı anlamına gelmez."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Anlatıcının kişinin ruh hâlini yorumladığı tekniğe ne denir?",
+    "options": [],
+    "answer": [
+      "iç çözümleme",
+      "iç tahlil"
+    ],
+    "sub": 2,
+    "id": "t25q4",
+    "subtopicId": "t25s2",
+    "explanation": "Bireyin iç dünyasını öne çıkaran anlatılar duygu, düşünce, kaygı ve hatırlama süreçlerine odaklanır. İç çözümlemede anlatıcı kişinin ruh hâlini yorumlar; iç monologda kişinin zihninden geçenler kendi sesiyle aktarılır. Dış olayların azlığı, metinde çatışma olmadığı anlamına gelmez."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "İç monologda kimin sesi öne çıkar?",
+    "options": [
+      "Kişinin kendi düşünce sesi",
+      "Her zaman tarafsız tarihçinin sesi",
+      "Yalnız izleyicinin sesi"
+    ],
+    "answer": [
+      "Kişinin kendi düşünce sesi"
+    ],
+    "sub": 1,
+    "id": "t25q5",
+    "subtopicId": "t25s1",
+    "explanation": "Bireyin iç dünyasını öne çıkaran anlatılar duygu, düşünce, kaygı ve hatırlama süreçlerine odaklanır. İç çözümlemede anlatıcı kişinin ruh hâlini yorumlar; iç monologda kişinin zihninden geçenler kendi sesiyle aktarılır. Dış olayların azlığı, metinde çatışma olmadığı anlamına gelmez."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Anlatının önceki bir olaya yönelmesi nedir?",
+    "options": [
+      "Geriye dönüş",
+      "İleriye tahminin zorunlu hâli",
+      "Redif",
+      "Matla"
+    ],
+    "answer": [
+      "Geriye dönüş"
+    ],
+    "sub": 0,
+    "id": "t26q1",
+    "subtopicId": "t26s0",
+    "explanation": "Modernist anlatıda zaman çizgisi parçalanabilir; çağrışımlar, bilinç akışı ve farklı bakış açıları öne çıkabilir. Bilinç akışı zihindeki düşünceleri çağrışımsal ve kimi zaman kesintili biçimde verir. Geriye dönüş, anlatının geçmişteki bir olaya yönelmesidir. Bu teknikler okurun parçalar arasında bağ kurmasını ister."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Modernist anlatıda zaman çizgisi parçalanabilir; çağrışımlar, bilinç akışı ve farklı bakış açıları öne çıkabilir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t26q2",
+    "subtopicId": "t26s0",
+    "explanation": "Modernist anlatıda zaman çizgisi parçalanabilir; çağrışımlar, bilinç akışı ve farklı bakış açıları öne çıkabilir. Bilinç akışı zihindeki düşünceleri çağrışımsal ve kimi zaman kesintili biçimde verir. Geriye dönüş, anlatının geçmişteki bir olaya yönelmesidir. Bu teknikler okurun parçalar arasında bağ kurmasını ister."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Modernist anlatıda olaylar mutlaka kesintisiz kronolojik sıradadır.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t26q3",
+    "subtopicId": "t26s1",
+    "explanation": "Modernist anlatıda zaman çizgisi parçalanabilir; çağrışımlar, bilinç akışı ve farklı bakış açıları öne çıkabilir. Bilinç akışı zihindeki düşünceleri çağrışımsal ve kimi zaman kesintili biçimde verir. Geriye dönüş, anlatının geçmişteki bir olaya yönelmesidir. Bu teknikler okurun parçalar arasında bağ kurmasını ister."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Düşüncelerin çağrışımsal ve kesintili biçimde aktarıldığı teknik nedir?",
+    "options": [],
+    "answer": [
+      "bilinç akışı"
+    ],
+    "sub": 2,
+    "id": "t26q4",
+    "subtopicId": "t26s2",
+    "explanation": "Modernist anlatıda zaman çizgisi parçalanabilir; çağrışımlar, bilinç akışı ve farklı bakış açıları öne çıkabilir. Bilinç akışı zihindeki düşünceleri çağrışımsal ve kimi zaman kesintili biçimde verir. Geriye dönüş, anlatının geçmişteki bir olaya yönelmesidir. Bu teknikler okurun parçalar arasında bağ kurmasını ister."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Parçalı zaman kurgusu okurdan ne isteyebilir?",
+    "options": [
+      "Anlatı parçaları arasında ilişki kurmasını",
+      "Her şeyi kronolojik kabul etmesini",
+      "Yalnız başlığı okumasını"
+    ],
+    "answer": [
+      "Anlatı parçaları arasında ilişki kurmasını"
+    ],
+    "sub": 1,
+    "id": "t26q5",
+    "subtopicId": "t26s1",
+    "explanation": "Modernist anlatıda zaman çizgisi parçalanabilir; çağrışımlar, bilinç akışı ve farklı bakış açıları öne çıkabilir. Bilinç akışı zihindeki düşünceleri çağrışımsal ve kimi zaman kesintili biçimde verir. Geriye dönüş, anlatının geçmişteki bir olaya yönelmesidir. Bu teknikler okurun parçalar arasında bağ kurmasını ister."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Bu anlayışı değerlendirirken hangi ölçüt önemlidir?",
+    "options": [
+      "Toplumsal ilişkilerin ve sorunların işlenişi",
+      "Yalnız başlığın kısa olması",
+      "Dize sayısı",
+      "Kahramanın adının yaygınlığı"
+    ],
+    "answer": [
+      "Toplumsal ilişkilerin ve sorunların işlenişi"
+    ],
+    "sub": 0,
+    "id": "t27q1",
+    "subtopicId": "t27s0",
+    "explanation": "Toplumcu gerçekçi eserler emek, eşitsizlik, geçim, üretim ilişkileri ve toplumsal sorunlara odaklanabilir. Kişilerin davranışları yaşadıkları sosyal ve ekonomik koşullarla ilişkilendirilir. Bir metni bu anlayışla değerlendirirken yalnız yoksul bir kahramanın bulunmasına değil, sorunların nasıl ele alındığına bakılır."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Toplumcu gerçekçi eserler emek, eşitsizlik, geçim, üretim ilişkileri ve toplumsal sorunlara odaklanabilir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t27q2",
+    "subtopicId": "t27s0",
+    "explanation": "Toplumcu gerçekçi eserler emek, eşitsizlik, geçim, üretim ilişkileri ve toplumsal sorunlara odaklanabilir. Kişilerin davranışları yaşadıkları sosyal ve ekonomik koşullarla ilişkilendirilir. Bir metni bu anlayışla değerlendirirken yalnız yoksul bir kahramanın bulunmasına değil, sorunların nasıl ele alındığına bakılır."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Yoksul bir kahramanı olan her eser kesinlikle toplumcu gerçekçidir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t27q3",
+    "subtopicId": "t27s1",
+    "explanation": "Toplumcu gerçekçi eserler emek, eşitsizlik, geçim, üretim ilişkileri ve toplumsal sorunlara odaklanabilir. Kişilerin davranışları yaşadıkları sosyal ve ekonomik koşullarla ilişkilendirilir. Bir metni bu anlayışla değerlendirirken yalnız yoksul bir kahramanın bulunmasına değil, sorunların nasıl ele alındığına bakılır."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Emek ve eşitsizlik gibi konuları toplumsal koşullarla ilişkilendiren anlayış nedir?",
+    "options": [],
+    "answer": [
+      "toplumcu gerçekçilik",
+      "toplumcu gerçekçi"
+    ],
+    "sub": 2,
+    "id": "t27q4",
+    "subtopicId": "t27s2",
+    "explanation": "Toplumcu gerçekçi eserler emek, eşitsizlik, geçim, üretim ilişkileri ve toplumsal sorunlara odaklanabilir. Kişilerin davranışları yaşadıkları sosyal ve ekonomik koşullarla ilişkilendirilir. Bir metni bu anlayışla değerlendirirken yalnız yoksul bir kahramanın bulunmasına değil, sorunların nasıl ele alındığına bakılır."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Toplumcu bakış kişileri neyle ilişkilendirebilir?",
+    "options": [
+      "Sosyal ve ekonomik koşullarla",
+      "Yalnız adlarının sesleriyle",
+      "Sadece sayfa numarasıyla"
+    ],
+    "answer": [
+      "Sosyal ve ekonomik koşullarla"
+    ],
+    "sub": 1,
+    "id": "t27q5",
+    "subtopicId": "t27s1",
+    "explanation": "Toplumcu gerçekçi eserler emek, eşitsizlik, geçim, üretim ilişkileri ve toplumsal sorunlara odaklanabilir. Kişilerin davranışları yaşadıkları sosyal ve ekonomik koşullarla ilişkilendirilir. Bir metni bu anlayışla değerlendirirken yalnız yoksul bir kahramanın bulunmasına değil, sorunların nasıl ele alındığına bakılır."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Yerel ayrıntı ile evrensel tema arasında nasıl ilişki vardır?",
+    "options": [
+      "Bir arada bulunabilir ve birbirini güçlendirebilir",
+      "Her zaman birbirini dışlar",
+      "Yalnız şiirde bulunabilir",
+      "Metin yorumuyla ilgisizdir"
+    ],
+    "answer": [
+      "Bir arada bulunabilir ve birbirini güçlendirebilir"
+    ],
+    "sub": 0,
+    "id": "t28q1",
+    "subtopicId": "t28s0",
+    "explanation": "Edebî metinler belirli bir toplumun dilini, tarihini ve değerlerini taşırken adalet, sevgi ve özgürlük gibi insanlığın ortak meselelerini de işleyebilir. Yerel ayrıntılar evrensel bir sorunu görünür kılabilir. Yorum yapılırken değerlerin metindeki olay, kişi ve anlatım tercihleriyle nasıl kurulduğu incelenir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Edebî metinler belirli bir toplumun dilini, tarihini ve değerlerini taşırken adalet, sevgi ve özgürlük gibi insanlığın ortak meselelerini de işleyebilir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t28q2",
+    "subtopicId": "t28s0",
+    "explanation": "Edebî metinler belirli bir toplumun dilini, tarihini ve değerlerini taşırken adalet, sevgi ve özgürlük gibi insanlığın ortak meselelerini de işleyebilir. Yerel ayrıntılar evrensel bir sorunu görünür kılabilir. Yorum yapılırken değerlerin metindeki olay, kişi ve anlatım tercihleriyle nasıl kurulduğu incelenir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Yerel özellikler taşıyan bir eser evrensel bir konuyu işleyemez.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t28q3",
+    "subtopicId": "t28s1",
+    "explanation": "Edebî metinler belirli bir toplumun dilini, tarihini ve değerlerini taşırken adalet, sevgi ve özgürlük gibi insanlığın ortak meselelerini de işleyebilir. Yerel ayrıntılar evrensel bir sorunu görünür kılabilir. Yorum yapılırken değerlerin metindeki olay, kişi ve anlatım tercihleriyle nasıl kurulduğu incelenir."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "İnsanlığın ortak meselelerini kapsama niteliğine ne denir?",
+    "options": [],
+    "answer": [
+      "evrensellik"
+    ],
+    "sub": 2,
+    "id": "t28q4",
+    "subtopicId": "t28s2",
+    "explanation": "Edebî metinler belirli bir toplumun dilini, tarihini ve değerlerini taşırken adalet, sevgi ve özgürlük gibi insanlığın ortak meselelerini de işleyebilir. Yerel ayrıntılar evrensel bir sorunu görünür kılabilir. Yorum yapılırken değerlerin metindeki olay, kişi ve anlatım tercihleriyle nasıl kurulduğu incelenir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Köyde geçen bir adalet arayışı nasıl değerlendirilebilir?",
+    "options": [
+      "Yerel ayrıntılarla evrensel bir mesele",
+      "Yalnız coğrafi bilgi",
+      "Evrensel anlam taşıyamayan anlatı"
+    ],
+    "answer": [
+      "Yerel ayrıntılarla evrensel bir mesele"
+    ],
+    "sub": 1,
+    "id": "t28q5",
+    "subtopicId": "t28s1",
+    "explanation": "Edebî metinler belirli bir toplumun dilini, tarihini ve değerlerini taşırken adalet, sevgi ve özgürlük gibi insanlığın ortak meselelerini de işleyebilir. Yerel ayrıntılar evrensel bir sorunu görünür kılabilir. Yorum yapılırken değerlerin metindeki olay, kişi ve anlatım tercihleriyle nasıl kurulduğu incelenir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Eleştirel okurun sorusu hangisidir?",
+    "options": [
+      "Bu iddiayı hangi kanıt destekliyor?",
+      "Yazarla her durumda aynı fikirde miyim?",
+      "Metin ne kadar süslü?",
+      "Başlık kaç harfli?"
+    ],
+    "answer": [
+      "Bu iddiayı hangi kanıt destekliyor?"
+    ],
+    "sub": 0,
+    "id": "t29q1",
+    "subtopicId": "t29s0",
+    "explanation": "Eleştirel okuma, metnin iddiasını, kanıtlarını, varsayımlarını ve bakış açısını sorgulamaktır. Olgu doğrulanabilir bir bilgi; yorum ise bilgiden çıkarılan değerlendirmedir. Kaynağın uzmanlığı, güncelliği ve iddiayla ilişkisi araştırılır. Bir iddiaya katılmak veya karşı çıkmak tek başına eleştirel okuma değildir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Eleştirel okuma, metnin iddiasını, kanıtlarını, varsayımlarını ve bakış açısını sorgulamaktır.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t29q2",
+    "subtopicId": "t29s0",
+    "explanation": "Eleştirel okuma, metnin iddiasını, kanıtlarını, varsayımlarını ve bakış açısını sorgulamaktır. Olgu doğrulanabilir bir bilgi; yorum ise bilgiden çıkarılan değerlendirmedir. Kaynağın uzmanlığı, güncelliği ve iddiayla ilişkisi araştırılır. Bir iddiaya katılmak veya karşı çıkmak tek başına eleştirel okuma değildir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Bir metne katılmak eleştirel okuma için tek başına yeterlidir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t29q3",
+    "subtopicId": "t29s1",
+    "explanation": "Eleştirel okuma, metnin iddiasını, kanıtlarını, varsayımlarını ve bakış açısını sorgulamaktır. Olgu doğrulanabilir bir bilgi; yorum ise bilgiden çıkarılan değerlendirmedir. Kaynağın uzmanlığı, güncelliği ve iddiayla ilişkisi araştırılır. Bir iddiaya katılmak veya karşı çıkmak tek başına eleştirel okuma değildir."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Metinde doğrulanabilir bilgi ile kişisel yorumu ayıran okuma yaklaşımı nedir?",
+    "options": [],
+    "answer": [
+      "eleştirel okuma"
+    ],
+    "sub": 2,
+    "id": "t29q4",
+    "subtopicId": "t29s2",
+    "explanation": "Eleştirel okuma, metnin iddiasını, kanıtlarını, varsayımlarını ve bakış açısını sorgulamaktır. Olgu doğrulanabilir bir bilgi; yorum ise bilgiden çıkarılan değerlendirmedir. Kaynağın uzmanlığı, güncelliği ve iddiayla ilişkisi araştırılır. Bir iddiaya katılmak veya karşı çıkmak tek başına eleştirel okuma değildir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Kaynak değerlendirirken hangi ölçüt kullanılmalıdır?",
+    "options": [
+      "Uzmanlık ve iddiayla ilişki",
+      "Yalnız yazı tipi",
+      "Beğeni sayısının kesin kanıt olması"
+    ],
+    "answer": [
+      "Uzmanlık ve iddiayla ilişki"
+    ],
+    "sub": 1,
+    "id": "t29q5",
+    "subtopicId": "t29s1",
+    "explanation": "Eleştirel okuma, metnin iddiasını, kanıtlarını, varsayımlarını ve bakış açısını sorgulamaktır. Olgu doğrulanabilir bir bilgi; yorum ise bilgiden çıkarılan değerlendirmedir. Kaynağın uzmanlığı, güncelliği ve iddiayla ilişkisi araştırılır. Bir iddiaya katılmak veya karşı çıkmak tek başına eleştirel okuma değildir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Paragrafların ortak anlam ekseninde birleşmesi hangi kavramla ilgilidir?",
+    "options": [
+      "Tutarlılık",
+      "Aruz",
+      "Sahne",
+      "Nazım birimi"
+    ],
+    "answer": [
+      "Tutarlılık"
+    ],
+    "sub": 0,
+    "id": "t30q1",
+    "subtopicId": "t30s0",
+    "explanation": "Denemede düşünce örgüsü, düşüncenin örnekler, karşılaştırmalar ve çağrışımlarla geliştirilmesidir. Paragraflar ortak bir ana eksene bağlandığında tutarlılık oluşur. Bağdaşıklık, dilsel bağlantılarla cümlelerin ilişkilendirilmesidir. Serbest üslup, anlam ilişkilerinin tamamen kopuk olması demek değildir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Denemede düşünce örgüsü, düşüncenin örnekler, karşılaştırmalar ve çağrışımlarla geliştirilmesidir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t30q2",
+    "subtopicId": "t30s0",
+    "explanation": "Denemede düşünce örgüsü, düşüncenin örnekler, karşılaştırmalar ve çağrışımlarla geliştirilmesidir. Paragraflar ortak bir ana eksene bağlandığında tutarlılık oluşur. Bağdaşıklık, dilsel bağlantılarla cümlelerin ilişkilendirilmesidir. Serbest üslup, anlam ilişkilerinin tamamen kopuk olması demek değildir."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Denemede serbest üslup, düşüncelerin tamamen kopuk olması demektir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t30q3",
+    "subtopicId": "t30s1",
+    "explanation": "Denemede düşünce örgüsü, düşüncenin örnekler, karşılaştırmalar ve çağrışımlarla geliştirilmesidir. Paragraflar ortak bir ana eksene bağlandığında tutarlılık oluşur. Bağdaşıklık, dilsel bağlantılarla cümlelerin ilişkilendirilmesidir. Serbest üslup, anlam ilişkilerinin tamamen kopuk olması demek değildir."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Cümlelerin dilsel bağlantılarla birbirine bağlanması nedir?",
+    "options": [],
+    "answer": [
+      "bağdaşıklık"
+    ],
+    "sub": 2,
+    "id": "t30q4",
+    "subtopicId": "t30s2",
+    "explanation": "Denemede düşünce örgüsü, düşüncenin örnekler, karşılaştırmalar ve çağrışımlarla geliştirilmesidir. Paragraflar ortak bir ana eksene bağlandığında tutarlılık oluşur. Bağdaşıklık, dilsel bağlantılarla cümlelerin ilişkilendirilmesidir. Serbest üslup, anlam ilişkilerinin tamamen kopuk olması demek değildir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Serbest üsluba rağmen denemede ne aranabilir?",
+    "options": [
+      "Anlam ilişkilerinin tutarlılığı",
+      "Her cümlenin aynı uzunlukta olması",
+      "Yalnız kafiyeli anlatım"
+    ],
+    "answer": [
+      "Anlam ilişkilerinin tutarlılığı"
+    ],
+    "sub": 1,
+    "id": "t30q5",
+    "subtopicId": "t30s1",
+    "explanation": "Denemede düşünce örgüsü, düşüncenin örnekler, karşılaştırmalar ve çağrışımlarla geliştirilmesidir. Paragraflar ortak bir ana eksene bağlandığında tutarlılık oluşur. Bağdaşıklık, dilsel bağlantılarla cümlelerin ilişkilendirilmesidir. Serbest üslup, anlam ilişkilerinin tamamen kopuk olması demek değildir."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "AI tarafından üretilen bilgi için hangi yaklaşım uygundur?",
+    "options": [
+      "Güvenilir kaynaklarla kontrol etmek",
+      "Otomatik olarak doğru kabul etmek",
+      "Kaynak incelemesini bırakmak",
+      "Her zaman özgün saymak"
+    ],
+    "answer": [
+      "Güvenilir kaynaklarla kontrol etmek"
+    ],
+    "sub": 0,
+    "id": "t31q1",
+    "subtopicId": "t31s0",
+    "explanation": "Dijital ortamlar edebî üretim, paylaşım ve okuma biçimlerini değiştirir. Hiper metin bağlantılarla doğrusal olmayan okuma yolları sunabilir. Yapay zekânın ürettiği bir metin doğruluk, özgünlük ve kaynak kullanımı açısından incelenmelidir. Teknoloji araçtır; eleştirel okuma ve yazarın sorumluluğu ortadan kalkmaz."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Dijital ortamlar edebî üretim, paylaşım ve okuma biçimlerini değiştirir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t31q2",
+    "subtopicId": "t31s0",
+    "explanation": "Dijital ortamlar edebî üretim, paylaşım ve okuma biçimlerini değiştirir. Hiper metin bağlantılarla doğrusal olmayan okuma yolları sunabilir. Yapay zekânın ürettiği bir metin doğruluk, özgünlük ve kaynak kullanımı açısından incelenmelidir. Teknoloji araçtır; eleştirel okuma ve yazarın sorumluluğu ortadan kalkmaz."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Yapay zekânın verdiği bilgileri kontrol etmeye gerek yoktur.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t31q3",
+    "subtopicId": "t31s1",
+    "explanation": "Dijital ortamlar edebî üretim, paylaşım ve okuma biçimlerini değiştirir. Hiper metin bağlantılarla doğrusal olmayan okuma yolları sunabilir. Yapay zekânın ürettiği bir metin doğruluk, özgünlük ve kaynak kullanımı açısından incelenmelidir. Teknoloji araçtır; eleştirel okuma ve yazarın sorumluluğu ortadan kalkmaz."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Bağlantılarla farklı okuma yolları sunan dijital metin türü nedir?",
+    "options": [],
+    "answer": [
+      "hiper metin",
+      "hipermetin"
+    ],
+    "sub": 2,
+    "id": "t31q4",
+    "subtopicId": "t31s2",
+    "explanation": "Dijital ortamlar edebî üretim, paylaşım ve okuma biçimlerini değiştirir. Hiper metin bağlantılarla doğrusal olmayan okuma yolları sunabilir. Yapay zekânın ürettiği bir metin doğruluk, özgünlük ve kaynak kullanımı açısından incelenmelidir. Teknoloji araçtır; eleştirel okuma ve yazarın sorumluluğu ortadan kalkmaz."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Teknolojinin edebiyattaki rolü için hangisi uygundur?",
+    "options": [
+      "Üretim ve okuma biçimlerini değiştirebilir",
+      "Eleştirel okumayı gereksiz kılar",
+      "Tüm metinleri kesin doğru yapar"
+    ],
+    "answer": [
+      "Üretim ve okuma biçimlerini değiştirebilir"
+    ],
+    "sub": 1,
+    "id": "t31q5",
+    "subtopicId": "t31s1",
+    "explanation": "Dijital ortamlar edebî üretim, paylaşım ve okuma biçimlerini değiştirir. Hiper metin bağlantılarla doğrusal olmayan okuma yolları sunabilir. Yapay zekânın ürettiği bir metin doğruluk, özgünlük ve kaynak kullanımı açısından incelenmelidir. Teknoloji araçtır; eleştirel okuma ve yazarın sorumluluğu ortadan kalkmaz."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Gözden geçirmenin kapsamı hangisidir?",
+    "options": [
+      "İçerik, yapı, tutarlılık ve dil",
+      "Yalnız virgüller",
+      "Yalnız sözcük sayısı",
+      "Yalnız dosya adı"
+    ],
+    "answer": [
+      "İçerik, yapı, tutarlılık ve dil"
+    ],
+    "sub": 0,
+    "id": "t32q1",
+    "subtopicId": "t32s0",
+    "explanation": "Yaratıcı yazmada amaç, anlatılacak duygu veya düşünceye uygun biçimi bulmaktır. Planlama, taslak oluşturma, gözden geçirme ve düzeltme birbirini besler. Betimleme ve diyalog gibi teknikler amaca göre seçilir. Gözden geçirme yalnız yazım hatalarını değil, olayların tutarlılığını ve anlatımın etkisini de kapsar."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Yaratıcı yazmada amaç, anlatılacak duygu veya düşünceye uygun biçimi bulmaktır.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Doğru"
+    ],
+    "sub": 0,
+    "id": "t32q2",
+    "subtopicId": "t32s0",
+    "explanation": "Yaratıcı yazmada amaç, anlatılacak duygu veya düşünceye uygun biçimi bulmaktır. Planlama, taslak oluşturma, gözden geçirme ve düzeltme birbirini besler. Betimleme ve diyalog gibi teknikler amaca göre seçilir. Gözden geçirme yalnız yazım hatalarını değil, olayların tutarlılığını ve anlatımın etkisini de kapsar."
+  },
+  {
+    "type": "true_false",
+    "prompt": "Taslağı gözden geçirmek yalnızca noktalama düzeltmek demektir.",
+    "options": [
+      "Doğru",
+      "Yanlış"
+    ],
+    "answer": [
+      "Yanlış"
+    ],
+    "sub": 1,
+    "id": "t32q3",
+    "subtopicId": "t32s1",
+    "explanation": "Yaratıcı yazmada amaç, anlatılacak duygu veya düşünceye uygun biçimi bulmaktır. Planlama, taslak oluşturma, gözden geçirme ve düzeltme birbirini besler. Betimleme ve diyalog gibi teknikler amaca göre seçilir. Gözden geçirme yalnız yazım hatalarını değil, olayların tutarlılığını ve anlatımın etkisini de kapsar."
+  },
+  {
+    "type": "short_answer",
+    "prompt": "Yazının geliştirilmek üzere oluşturulan ilk biçimine ne denir?",
+    "options": [],
+    "answer": [
+      "taslak"
+    ],
+    "sub": 2,
+    "id": "t32q4",
+    "subtopicId": "t32s2",
+    "explanation": "Yaratıcı yazmada amaç, anlatılacak duygu veya düşünceye uygun biçimi bulmaktır. Planlama, taslak oluşturma, gözden geçirme ve düzeltme birbirini besler. Betimleme ve diyalog gibi teknikler amaca göre seçilir. Gözden geçirme yalnız yazım hatalarını değil, olayların tutarlılığını ve anlatımın etkisini de kapsar."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": "Kahramanın karar nedenini güçlendirmek hangi düzeltmedir?",
+    "options": [
+      "İçerik ve yapı düzenlemesi",
+      "Yalnız noktalama",
+      "Yalnız dosya biçimi"
+    ],
+    "answer": [
+      "İçerik ve yapı düzenlemesi"
+    ],
+    "sub": 1,
+    "id": "t32q5",
+    "subtopicId": "t32s1",
+    "explanation": "Yaratıcı yazmada amaç, anlatılacak duygu veya düşünceye uygun biçimi bulmaktır. Planlama, taslak oluşturma, gözden geçirme ve düzeltme birbirini besler. Betimleme ve diyalog gibi teknikler amaca göre seçilir. Gözden geçirme yalnız yazım hatalarını değil, olayların tutarlılığını ve anlatımın etkisini de kapsar."
+  },
+  {
+    "id": "t1q6",
+    "subtopicId": "t1s2",
+    "type": "multiple_choice",
+    "prompt": "Şiirde özgün bir zihinsel tasarım oluşturan anlatım unsuruna ne denir?",
+    "options": [
+      "imge",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "imge"
+    ],
+    "explanation": "Şiirde sözcükler yalnızca sözlük anlamlarıyla kullanılmaz; çağrışımlar, sesler ve imgelerle yeni anlam ilişkileri kurulur. İmge, duygu ya da düşüncenin zihinde özgün bir tasarımla canlandırılmasıdır. Bir şiiri yorumlarken tek bir sözcüğe değil, metnin bütününe dayanmak gerekir."
+  },
+  {
+    "id": "t2q6",
+    "subtopicId": "t2s2",
+    "type": "multiple_choice",
+    "prompt": "Kişisel düşüncelerin serbest ve samimi biçimde işlendiği tür nedir?",
+    "options": [
+      "deneme",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "deneme"
+    ],
+    "explanation": "Deneme, yazarın bir konuda kişisel düşüncelerini serbest bir biçimde geliştirdiği öğretici metindir. Yazar okurla konuşur gibi yazabilir. Kesin bir sonuca ulaşma ya da düşüncesini bilimsel kanıtlarla ispatlama zorunluluğu yoktur. Kişisel bakış, düşüncenin gerekçesiz olması demek değildir."
+  },
+  {
+    "id": "t3q6",
+    "subtopicId": "t3s2",
+    "type": "multiple_choice",
+    "prompt": "Kişinin kendi kararları arasında yaşadığı gerilime ne denir?",
+    "options": [
+      "iç çatışma",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "iç çatışma"
+    ],
+    "explanation": "Hikâyede çatışma, olayların ilerlemesini sağlayan karşıtlık veya gerilimdir. Kişi kendisiyle, başka kişilerle, toplumla ya da doğayla çatışabilir. Tema, metnin üzerinde durduğu temel duygu veya düşüncedir; çatışma ise bu temayı görünür kılan gerilim olabilir."
+  },
+  {
+    "id": "t4q6",
+    "subtopicId": "t4s2",
+    "type": "multiple_choice",
+    "prompt": "Metnin iletmek istediği temel yargıya ne denir?",
+    "options": [
+      "ana düşünce",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "ana düşünce"
+    ],
+    "explanation": "Ana düşünce, metnin okura iletmek istediği temel yargıdır. Konu, metnin ne hakkında olduğudur. Yardımcı düşünceler ana düşünceyi örnekler, gerekçeler ya da ayrıntılarla destekler. Ana düşünce her zaman tek bir cümlede açıkça verilmez; metnin bütünü üzerinden çıkarılabilir."
+  },
+  {
+    "id": "t5q6",
+    "subtopicId": "t5s2",
+    "type": "multiple_choice",
+    "prompt": "Olayların neden-sonuç ilişkisiyle düzenlenmesine ne denir?",
+    "options": [
+      "olay örgüsü",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "olay örgüsü"
+    ],
+    "explanation": "Olay örgüsü, olayların neden-sonuç ve zaman ilişkileriyle düzenlenmesidir. Kişiler olayları yaşar; zaman ve mekân, olayın koşullarını belirler. Mekân yalnızca arka plan olmayabilir: kişinin duygularını ve davranışlarını etkileyebilir. Olay örgüsü, olayları sıralamaktan daha fazlasıdır."
+  },
+  {
+    "id": "t6q6",
+    "subtopicId": "t6s2",
+    "type": "multiple_choice",
+    "prompt": "Olayın içindeki kişinin kendi yaşadıklarını anlattığı anlatıcıya ne denir?",
+    "options": [
+      "kahraman anlatıcı",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "kahraman anlatıcı"
+    ],
+    "explanation": "Anlatıcı, kurmaca metni aktaran sestir; yazarla aynı kişi olmak zorunda değildir. Kahraman anlatıcı olayın içindedir ve çoğunlukla birinci kişiyle konuşur. Gözlemci bakış açısı dışarıdan görülebilenleri aktarır. Hâkim bakış açısında anlatıcı kişilerin düşüncelerini ve farklı yerlerdeki olayları bilebilir."
+  },
+  {
+    "id": "t7q6",
+    "subtopicId": "t7s2",
+    "type": "multiple_choice",
+    "prompt": "İnsan dışındaki varlıklara insan özellikleri verilmesine ne denir?",
+    "options": [
+      "kişileştirme",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "kişileştirme"
+    ],
+    "explanation": "Benzetmede iki varlık arasında ortak özellik üzerinden ilişki kurulur. Kişileştirmede insan dışındaki varlıklara insana özgü özellikler verilir. Konuşturmada insan dışı varlık konuşturulur; bu durumda kişileştirme de vardır. Abartmada bir durum olduğundan çok büyük ya da küçük gösterilir."
+  },
+  {
+    "id": "t8q6",
+    "subtopicId": "t8s2",
+    "type": "multiple_choice",
+    "prompt": "“Evde bekledim.” cümlesinde -de hangi ektir?",
+    "options": [
+      "bulunma eki",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "bulunma eki"
+    ],
+    "explanation": "Bağlaç olan de ayrı yazılır; cümleden çıkarıldığında temel yapı genellikle bozulmaz. Bulunma durumu eki -de sözcüğe bitişir ve ses uyumuna göre -da, -te, -ta biçimlerini alabilir. Soru eki mı ayrı yazılır; kendisinden sonraki ekler ona bitişir. Noktalama, cümlenin anlam ilişkilerini görünür kılar."
+  },
+  {
+    "id": "t9q6",
+    "subtopicId": "t9s2",
+    "type": "multiple_choice",
+    "prompt": "İslamiyet öncesi Türk şiirinde doğa, sevgi, yiğitlik konularını işleyen ürün nedir?",
+    "options": [
+      "koşuk",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "koşuk"
+    ],
+    "explanation": "Koşuk, İslamiyet öncesi Türk şiir geleneğinde doğa, sevgi ve yiğitlik gibi konuları işleyen ürünlerdendir. Genellikle hece ölçüsü ve dörtlüklerle ilişkilendirilir. Türkü, bir ezgiyle söylenen halk şiiri ürünüdür; bent ve kavuştak içerebilir. Türkülerde yöresel söyleyiş ve toplumsal yaşantı izleri bulunur."
+  },
+  {
+    "id": "t10q6",
+    "subtopicId": "t10s2",
+    "type": "multiple_choice",
+    "prompt": "Aynı anlam ve görevdeki ek ya da sözcüklerin dize sonunda tekrarına ne denir?",
+    "options": [
+      "redif",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "redif"
+    ],
+    "explanation": "Şiirde ahenk; ölçü, uyak, redif, ses tekrarları ve söyleyişin birlikte oluşturduğu ritmik etkidir. Uyak, dize sonlarında anlam ve görevleri farklı sözcüklerdeki ses benzerliğidir. Redif, aynı görevdeki eklerin veya aynı anlamdaki sözcüklerin tekrarıdır. Her ses benzerliği uyak sayılmaz."
+  },
+  {
+    "id": "t11q6",
+    "subtopicId": "t11s2",
+    "type": "multiple_choice",
+    "prompt": "Gazel ve kasidede ilk beytin adı nedir?",
+    "options": [
+      "matla",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "matla"
+    ],
+    "explanation": "Gazel ve kaside, divan edebiyatında beyitlerle kurulan nazım biçimleridir. Gazelde aşk, güzellik ve hayat üzerine düşünceler sık işlenir; kaside çoğunlukla övgü amacı taşır. Klasik düzende uyak örgüsü aa, ba, ca biçiminde ilerler. İlk beyit matla, son beyit makta olarak adlandırılır."
+  },
+  {
+    "id": "t12q6",
+    "subtopicId": "t12s2",
+    "type": "multiple_choice",
+    "prompt": "Şiirdeki kurmaca sesin adı nedir?",
+    "options": [
+      "söyleyici",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "söyleyici"
+    ],
+    "explanation": "Şiirde söyleyici, şiirin sesini taşıyan kurmaca öznedir. Her şiirde doğrudan şairin yaşamını anlattığı varsayılmaz. Tema temel duygu ya da düşüncedir; konu bunun şiirde hangi durumla ele alındığıdır. Yorum, imgeler ve söyleyişten elde edilen kanıtlarla desteklenmelidir."
+  },
+  {
+    "id": "t13q6",
+    "subtopicId": "t13s2",
+    "type": "multiple_choice",
+    "prompt": "Halk arasında bir yerin oluşumunu inanışla açıklayan anlatı türü nedir?",
+    "options": [
+      "efsane",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "efsane"
+    ],
+    "explanation": "Destanlar toplumların belleğinde iz bırakan savaş, göç ve olağanüstü kahramanlıkları anlatabilir. Doğal destanlar sözlü gelenekte oluşup zamanla derlenir; yapma destanlar belli bir sanatçı tarafından yazılır. Efsaneler bir yer, kişi veya olay çevresinde oluşan, halk arasında inanış niteliği taşıyan anlatılardır."
+  },
+  {
+    "id": "t14q6",
+    "subtopicId": "t14s2",
+    "type": "multiple_choice",
+    "prompt": "aa, bb, cc biçiminde uyaklanan uzun anlatı nazım biçimi nedir?",
+    "options": [
+      "mesnevi",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "mesnevi"
+    ],
+    "explanation": "Mesnevi, her beytin kendi içinde uyaklandığı aa, bb, cc düzeniyle uzun anlatılara elverişli bir nazım biçimidir. Modern hikâye düzyazıyla kurulur ve olay, kişi, zaman, mekân gibi yapı unsurları kullanır. Anlatı geleneği değişirken aşk, yolculuk ve çatışma gibi izlekler yeni biçimlerde devam edebilir."
+  },
+  {
+    "id": "t15q6",
+    "subtopicId": "t15s2",
+    "type": "multiple_choice",
+    "prompt": "Halk hikâyesindeki düzyazı bölümünün biçim adı nedir?",
+    "options": [
+      "nesir",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "nesir"
+    ],
+    "explanation": "Halk hikâyelerinde aşk ve kahramanlık gibi konular sözlü anlatım geleneği içinde işlenir. Nazım ve nesir bir arada bulunabilir; anlatıcı olayları düzyazıyla aktarırken duygulu bölümlerde şiire başvurabilir. Olağanüstü unsurlar ile günlük hayatın izleri yan yana yer alabilir."
+  },
+  {
+    "id": "t16q6",
+    "subtopicId": "t16s2",
+    "type": "multiple_choice",
+    "prompt": "Toplumun geçmiş deneyimlerini anlatılarla yaşatması hangi bellek türüdür?",
+    "options": [
+      "kültürel bellek",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "kültürel bellek"
+    ],
+    "explanation": "Kültürel bellek, bir toplumun geçmişe ilişkin anlatılarını, değerlerini ve deneyimlerini aktarma biçimleriyle oluşur. Edebî eserler dil, gelenek, toplumsal ilişki ve gündelik yaşam izlerini koruyabilir. Ancak kurmaca eser, olduğu gibi tarih belgesi sayılmaz; anlatıcının seçimi ve eserin estetik amacı hesaba katılır."
+  },
+  {
+    "id": "t17q6",
+    "subtopicId": "t17s2",
+    "type": "multiple_choice",
+    "prompt": "Bir düşünceyi bilgi ve kanıtlarla temellendirmeye yönelen metin türü nedir?",
+    "options": [
+      "makale",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "makale"
+    ],
+    "explanation": "Makale, bir düşünceyi bilgi, gerekçe ve kanıtlarla temellendirmeyi amaçlar. Deneme ise kişisel bakışını daha serbest bir örgü içinde geliştirir. Her iki tür düşünce iletir; ayrım yalnız konuya değil, amaç, üslup ve kanıtlama biçimine dayanır. Nesnel anlatım kişisel yargıyı olgudan ayırır."
+  },
+  {
+    "id": "t18q6",
+    "subtopicId": "t18s2",
+    "type": "multiple_choice",
+    "prompt": "Soyut düşünceyi somut bir örnekle açan düşünce geliştirme yolu nedir?",
+    "options": [
+      "örneklendirme",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "örneklendirme"
+    ],
+    "explanation": "Tanımlama bir kavramın ne olduğunu açıklar; örneklendirme soyut düşünceyi somutlaştırır. Karşılaştırma benzerlik ve farklılıkları gösterir. Tanık göstermede güvenilir kişinin sözü düşünceyi destekler. Sayısal veriler, kaynakları ve bağlamları güvenilir olduğunda kanıt değeri taşır."
+  },
+  {
+    "id": "t19q6",
+    "subtopicId": "t19s2",
+    "type": "multiple_choice",
+    "prompt": "Gezilen yerleri gözlem ve izlenimlerle anlatan tür nedir?",
+    "options": [
+      "gezi yazısı",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "gezi yazısı"
+    ],
+    "explanation": "Gezi yazısı, gezilip görülen yerlerin doğal, tarihî ve kültürel özelliklerini gözlemlerle anlatır. Yazarın izlenimleri bulunabilir; yine de bilgi ile kişisel yargı ayrılmalıdır. Betimleme, yerleri okurun zihninde canlandırır. Bir gezi yazısı sadece ulaşım bilgisi veren rehberden daha kişisel olabilir."
+  },
+  {
+    "id": "t20q6",
+    "subtopicId": "t20s2",
+    "type": "multiple_choice",
+    "prompt": "Edebî metnin gerçeklikten yararlanarak oluşturduğu tasarlanmış dünyaya ne denir?",
+    "options": [
+      "kurmaca",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "kurmaca"
+    ],
+    "explanation": "Edebiyat toplumun dilinden, değerlerinden ve değişimlerinden etkilenir; aynı zamanda toplumsal düşünceyi etkileyebilir. Metin ile dönem arasında ilişki kurarken ekonomik koşullar, siyasal ortam ve kültürel yapı dikkate alınır. Eseri yalnız dönemin aynası saymak, bireysel üslup ve kurmacayı gözden kaçırabilir."
+  },
+  {
+    "id": "t21q6",
+    "subtopicId": "t21s2",
+    "type": "multiple_choice",
+    "prompt": "Yaşantıların çoğunlukla günü gününe yazıldığı tür nedir?",
+    "options": [
+      "günlük",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "günlük"
+    ],
+    "explanation": "Günlük, yaşananların çoğunlukla günü gününe kaydedildiği türdür. Anı, geçmişte yaşananların daha sonra hatırlanarak yazılmasıdır. İkisinde de kişisel bakış vardır. Anıda zamanın geçmesi seçimi ve yorumu etkiler; günlük de tamamen tarafsız bir kayıt değildir."
+  },
+  {
+    "id": "t22q6",
+    "subtopicId": "t22s2",
+    "type": "multiple_choice",
+    "prompt": "Kişinin kendi yaşamını anlattığı tür nedir?",
+    "options": [
+      "otobiyografi",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "otobiyografi"
+    ],
+    "explanation": "Biyografi bir kişinin yaşamının başka biri tarafından anlatılmasıdır. Otobiyografide kişi kendi yaşamını anlatır. Yaşam öyküsü oluşturulurken olayların kronolojisi ve kaynakların güvenilirliği önemlidir. Otobiyografi birinci elden bilgi verir ama kişinin seçimi ve yorumu nedeniyle bütünüyle tarafsız değildir."
+  },
+  {
+    "id": "t23q6",
+    "subtopicId": "t23s2",
+    "type": "multiple_choice",
+    "prompt": "Bir romandaki bireysel özellikleriyle öne çıkan kişiye ne denir?",
+    "options": [
+      "karakter",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "karakter"
+    ],
+    "explanation": "Roman, kişiler ve olaylar arasında geniş ilişkiler kurabilen kurmaca anlatıdır. Gerçekçi anlatım, gündelik hayatı ve toplumsal koşulları inandırıcı ayrıntılarla verebilir. Gerçekçi bir romanın bütün olaylarının yaşanmış olması gerekmez. Tip belirli bir toplumsal özelliği temsil ederken karakter daha bireysel özellikleriyle öne çıkabilir."
+  },
+  {
+    "id": "t24q6",
+    "subtopicId": "t24s2",
+    "type": "multiple_choice",
+    "prompt": "Tiyatrodaki karşılıklı konuşmaya ne denir?",
+    "options": [
+      "diyalog",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "diyalog"
+    ],
+    "explanation": "Tiyatro, sahnede canlandırılmak üzere yazılan veya oynanan dramatik yapıttır. Diyalog, kişilerin karşılıklı konuşmasıdır; monolog tek kişinin konuşmasıdır. Çatışma dramatik hareketi sağlar. Sahne yönergeleri hareket, dekor, ses veya söyleyiş hakkında bilgi verir; her zaman seyirciye okunmaz."
+  },
+  {
+    "id": "t25q6",
+    "subtopicId": "t25s2",
+    "type": "multiple_choice",
+    "prompt": "Anlatıcının kişinin ruh hâlini yorumladığı tekniğe ne denir?",
+    "options": [
+      "iç çözümleme",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "iç çözümleme"
+    ],
+    "explanation": "Bireyin iç dünyasını öne çıkaran anlatılar duygu, düşünce, kaygı ve hatırlama süreçlerine odaklanır. İç çözümlemede anlatıcı kişinin ruh hâlini yorumlar; iç monologda kişinin zihninden geçenler kendi sesiyle aktarılır. Dış olayların azlığı, metinde çatışma olmadığı anlamına gelmez."
+  },
+  {
+    "id": "t26q6",
+    "subtopicId": "t26s2",
+    "type": "multiple_choice",
+    "prompt": "Düşüncelerin çağrışımsal ve kesintili biçimde aktarıldığı teknik nedir?",
+    "options": [
+      "bilinç akışı",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "bilinç akışı"
+    ],
+    "explanation": "Modernist anlatıda zaman çizgisi parçalanabilir; çağrışımlar, bilinç akışı ve farklı bakış açıları öne çıkabilir. Bilinç akışı zihindeki düşünceleri çağrışımsal ve kimi zaman kesintili biçimde verir. Geriye dönüş, anlatının geçmişteki bir olaya yönelmesidir. Bu teknikler okurun parçalar arasında bağ kurmasını ister."
+  },
+  {
+    "id": "t27q6",
+    "subtopicId": "t27s2",
+    "type": "multiple_choice",
+    "prompt": "Emek ve eşitsizlik gibi konuları toplumsal koşullarla ilişkilendiren anlayış nedir?",
+    "options": [
+      "toplumcu gerçekçilik",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "toplumcu gerçekçilik"
+    ],
+    "explanation": "Toplumcu gerçekçi eserler emek, eşitsizlik, geçim, üretim ilişkileri ve toplumsal sorunlara odaklanabilir. Kişilerin davranışları yaşadıkları sosyal ve ekonomik koşullarla ilişkilendirilir. Bir metni bu anlayışla değerlendirirken yalnız yoksul bir kahramanın bulunmasına değil, sorunların nasıl ele alındığına bakılır."
+  },
+  {
+    "id": "t28q6",
+    "subtopicId": "t28s2",
+    "type": "multiple_choice",
+    "prompt": "İnsanlığın ortak meselelerini kapsama niteliğine ne denir?",
+    "options": [
+      "evrensellik",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "evrensellik"
+    ],
+    "explanation": "Edebî metinler belirli bir toplumun dilini, tarihini ve değerlerini taşırken adalet, sevgi ve özgürlük gibi insanlığın ortak meselelerini de işleyebilir. Yerel ayrıntılar evrensel bir sorunu görünür kılabilir. Yorum yapılırken değerlerin metindeki olay, kişi ve anlatım tercihleriyle nasıl kurulduğu incelenir."
+  },
+  {
+    "id": "t29q6",
+    "subtopicId": "t29s2",
+    "type": "multiple_choice",
+    "prompt": "Metinde doğrulanabilir bilgi ile kişisel yorumu ayıran okuma yaklaşımı nedir?",
+    "options": [
+      "eleştirel okuma",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "eleştirel okuma"
+    ],
+    "explanation": "Eleştirel okuma, metnin iddiasını, kanıtlarını, varsayımlarını ve bakış açısını sorgulamaktır. Olgu doğrulanabilir bir bilgi; yorum ise bilgiden çıkarılan değerlendirmedir. Kaynağın uzmanlığı, güncelliği ve iddiayla ilişkisi araştırılır. Bir iddiaya katılmak veya karşı çıkmak tek başına eleştirel okuma değildir."
+  },
+  {
+    "id": "t30q6",
+    "subtopicId": "t30s2",
+    "type": "multiple_choice",
+    "prompt": "Cümlelerin dilsel bağlantılarla birbirine bağlanması nedir?",
+    "options": [
+      "bağdaşıklık",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "bağdaşıklık"
+    ],
+    "explanation": "Denemede düşünce örgüsü, düşüncenin örnekler, karşılaştırmalar ve çağrışımlarla geliştirilmesidir. Paragraflar ortak bir ana eksene bağlandığında tutarlılık oluşur. Bağdaşıklık, dilsel bağlantılarla cümlelerin ilişkilendirilmesidir. Serbest üslup, anlam ilişkilerinin tamamen kopuk olması demek değildir."
+  },
+  {
+    "id": "t31q6",
+    "subtopicId": "t31s2",
+    "type": "multiple_choice",
+    "prompt": "Bağlantılarla farklı okuma yolları sunan dijital metin türü nedir?",
+    "options": [
+      "hiper metin",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "hiper metin"
+    ],
+    "explanation": "Dijital ortamlar edebî üretim, paylaşım ve okuma biçimlerini değiştirir. Hiper metin bağlantılarla doğrusal olmayan okuma yolları sunabilir. Yapay zekânın ürettiği bir metin doğruluk, özgünlük ve kaynak kullanımı açısından incelenmelidir. Teknoloji araçtır; eleştirel okuma ve yazarın sorumluluğu ortadan kalkmaz."
+  },
+  {
+    "id": "t32q6",
+    "subtopicId": "t32s2",
+    "type": "multiple_choice",
+    "prompt": "Yazının geliştirilmek üzere oluşturulan ilk biçimine ne denir?",
+    "options": [
+      "taslak",
+      "Bilimsel deney raporu",
+      "Kronolojik kaynakça"
+    ],
+    "answer": [
+      "taslak"
+    ],
+    "explanation": "Yaratıcı yazmada amaç, anlatılacak duygu veya düşünceye uygun biçimi bulmaktır. Planlama, taslak oluşturma, gözden geçirme ve düzeltme birbirini besler. Betimleme ve diyalog gibi teknikler amaca göre seçilir. Gözden geçirme yalnız yazım hatalarını değil, olayların tutarlılığını ve anlatımın etkisini de kapsar."
+  }
+]
