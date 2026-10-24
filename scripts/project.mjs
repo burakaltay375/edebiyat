@@ -1,4 +1,6 @@
 import fs from "node:fs";
+import {createRequire} from "node:module";
+if(process.platform==="win32")createRequire(import.meta.url)("../backend/scripts/windows-path.cjs");
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { spawnSync } from "node:child_process";

@@ -1,4 +1,5 @@
 "use client";
+import {request} from "../../lib/api-client";
 import { useEffect, useRef, useState } from "react";
 
 type Recognition = {
@@ -30,8 +31,9 @@ export function useSpeech(onText: (text: string) => void) {
     document.addEventListener("visibilitychange", hide);
     return () => { stop(); document.removeEventListener("visibilitychange", hide); };
   }, []);
-  function toggle() {
+  async function toggle() {
     if (recognition.current) { recognition.current.stop(); return; }
+    try{const [preferences,access]=await Promise.all([request('preferences'),request('practice/access')]);if(!preferences?.voice||!access.allowed){setError('Sesli öğrenme kapalı. Ayarlar’dan tercihini değiştirebilir veya yazarak devam edebilirsin.');return}}catch{setError('Ses izni kontrol edilemedi. Yazarak devam edebilirsin.');return}
     const browser = window as SpeechWindow;
     const Constructor = browser.SpeechRecognition || browser.webkitSpeechRecognition;
     if (!Constructor || !window.isSecureContext) { setError("Bu tarayıcıda sesli giriş kullanılamıyor. Cevabını yazabilirsin."); return; }

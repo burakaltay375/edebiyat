@@ -1,8 +1,15 @@
-import assert from "node:assert/strict";import {GET,POST} from "../app/api/[...path]/route";import {setUser,sqlite,env} from "./env";import {schedule,mastery} from "../lib/learning";
+import assert from "node:assert/strict";import {GET,POST} from "../app/api/[...path]/route";import {setUser,sqlite,env,testCookie} from "./env";import {schedule,mastery} from "../lib/learning";
 let passed=0;function check(condition:any,message:string){assert.ok(condition,message);console.log("PASS "+message);passed++}
-async function call(path:string,body?:any){const req=new Request("https://test.local/api/"+path,{method:body===undefined?"GET":"POST",headers:{"Content-Type":"application/json",Origin:"https://test.local"},body:body===undefined?undefined:JSON.stringify(body)});const res=await (body===undefined?GET:POST)(req);return {status:res.status,data:await res.json() as any}}
+async function call(path:string,body?:any){const req=new Request("https://test.local/api/"+path,{method:body===undefined?"GET":"POST",headers:{"Content-Type":"application/json",Origin:"https://test.local",Cookie:testCookie},body:body===undefined?undefined:JSON.stringify(body)});const res=await (body===undefined?GET:POST)(req);return {status:res.status,data:await res.json() as any}}
+const {digest}=await import('../lib/student-auth');
+for(const id of ['owner','other','participant','control']){
+ sqlite.prepare("INSERT INTO users(id,created_at) VALUES(?,?)").run(id,new Date().toISOString());
+ sqlite.prepare("INSERT INTO student_accounts(user_id,username,first_name,last_name,password_hash,role,created_at) VALUES(?,?,?,?,?,?,?)").run(id,id,'Test','Öğrenci','fixture',id==='owner'?'admin':'student',new Date().toISOString());
+ sqlite.prepare("INSERT INTO privacy_preferences(user_id,completed_at,updated_at) VALUES(?,?,?)").run(id,new Date().toISOString(),new Date().toISOString());
+ setUser(id);sqlite.prepare('INSERT INTO auth_sessions(token_hash,user_id,expires_at) VALUES(?,?,?)').run(await digest(testCookie.split('=')[1]),id,Date.now()+86400000);
+}
 setUser(null);check((await call("me")).status===401,"Unauthenticated request rejected");
-setUser("owner");check((await call("me")).data.admin===true,"Owner-private bootstrap assigns first authenticated owner");
+setUser("owner");check((await call("me")).data.admin===true,"Explicit administrator role is recognized");
 const c=(await call("catalog")).data;check(c.length===32&&new Set(c.map((x:any)=>x.grade_level)).size===4,"Database serves four grades and 32 topics");
 check(sqlite.prepare("SELECT COUNT(*) n FROM questions").get()!.n===192,"192 question records inserted");
 let s=await call("learning/start",{topicId:"t1",questionCount:5,difficulty:"easy"});check(s.status===200,"Five-question baseline starts without AI");const sid=s.data.id;
@@ -22,6 +29,8 @@ check((await call("progress")).data.progress.length===1,"Dashboard progress pers
 check(schedule(0,90,true,new Date("2026-10-05T12:00:00Z")).interval===3,"Successful review lengthens interval");check(schedule(4,20,true).interval===1,"Failure resets to one day");check(mastery(100,null,null,null,false)===100,"Missing AI evidence is not fabricated");
 const protocol={topicId:"t2",durationMinutes:3,questionCount:5,difficulty:"easy",startsAt:"2020-01-01T00:00:00.000Z",endsAt:"2099-01-01T00:00:00.000Z",active:true};
 check((await call("research/protocol",protocol)).status===200,"Researcher configures protocol");
+sqlite.prepare("INSERT INTO research_authorizations VALUES('participant','D01','owner',?,'parent-consent-test')").run(new Date().toISOString());
+sqlite.prepare("INSERT INTO research_authorizations VALUES('control','K01','owner',?,'parent-consent-test')").run(new Date().toISOString());
 setUser("participant");check((await call("research/enroll",{code:"D01",consent:true})).status===200,"Participant code enrolls");
 const research=await call("learning/start",{topicId:"t1",questionCount:20,difficulty:"hard"});check(research.data.topic_id==="t2"&&research.data.question_count===5&&research.data.difficulty==="easy"&&research.data.max_seconds===180,"Research overrides all student study preferences");
 setUser("control");await call("research/enroll",{code:"K01",consent:true});check((await call("learning/start",{topicId:"t1"})).status===403,"Control group cannot start learning");
@@ -98,3 +107,52 @@ let hourly=false;try{await reserveAIRequest("owner")}catch{hourly=true}check(hou
 // Completed text-only sessions above passed without any microphone or podcast request.
 globalThis.fetch=originalFetch;delete env.GEMINI_API_KEY;delete env.AI_PROVIDER;
 console.log("TOTAL "+passed+" checks passed including optional features");
+
+// Credential, cookie, privacy and isolation coverage uses the real HTTP handlers.
+async function authCall(path:string,body?:any,cookie='',origin='https://test.local'){
+ const req=new Request('https://test.local/api/'+path,{method:body===undefined?'GET':'POST',headers:{Origin:origin,Cookie:cookie,'Content-Type':'application/json'},body:body===undefined?undefined:JSON.stringify(body)});
+ const res=await(body===undefined?GET:POST)(req);return {status:res.status,data:await res.json() as any,cookie:res.headers.get('set-cookie')||''};
+}
+const registration={username:'student_a',password:'Strong-test-password-19',passwordRepeat:'Strong-test-password-19',firstName:'Ada',lastName:'Yılmaz',grade:10,role:'admin'};
+const reg=await authCall('auth/register',registration);check(reg.status===200,'Registration succeeds');
+check(reg.cookie.includes('HttpOnly')&&reg.cookie.includes('Secure')&&reg.cookie.includes('SameSite=Lax')&&reg.cookie.startsWith('__Host-'),'Secure host-only session cookie');
+const cookieA=reg.cookie.split(';')[0];const meA=(await authCall('me',undefined,cookieA)).data;
+check(!meA.admin&&!meA.preferences.voice&&!meA.preferences.analytics&&!meA.preferences.completed_at,'Registration cannot assign admin and optional consents default off');
+const stored:any=sqlite.prepare('SELECT * FROM student_accounts WHERE username=?').get('student_a');
+check(stored.password_hash.startsWith('pbkdf2-sha256$')&&!stored.password_hash.includes(registration.password),'Salted PBKDF2 hash stored instead of plaintext');
+check(!sqlite.prepare('SELECT token_hash FROM auth_sessions WHERE token_hash=?').get(cookieA.split('=')[1]),'Raw session token is not stored');
+check((await authCall('catalog',undefined,cookieA)).status===403,'First-login preference gate enforced on server');
+check((await authCall('preferences',{voice:false,analytics:false},cookieA)).status===200,'Optional permissions may both be declined');
+check((await authCall('catalog',undefined,cookieA)).status===200,'Text learning remains accessible without optional permissions');
+check((await authCall('auth/register',registration)).status===409,'Duplicate username rejected');
+check((await authCall('auth/register',{...registration,username:'student_b'})).status===200,'Same first and last name may register separately');
+check((await authCall('auth/login',{username:'student_a',password:'incorrect-password'})).status===401,'Wrong password rejected');
+check((await authCall('auth/login',{username:'STUDENT_A',password:registration.password})).status===200,'Username normalization and correct password login');
+check((await authCall('admin/students',undefined,cookieA)).status===403,'Student cannot enumerate students');
+check((await authCall('admin/students/'+meA.profile.id,undefined,cookieA)).status===403,'Student cannot access administrator detail endpoint');
+check((await authCall('profile',{grade:12},cookieA,'https://evil.example')).status===403,'Cross-origin state change rejected');
+check((await authCall('research/enroll',{code:'D02',consent:true},cookieA)).status===403,'Predictable research code alone cannot enroll student');
+const sessionA=(await authCall('learning/start',{topicId:'t3',questionCount:5,difficulty:'easy'},cookieA)).data;
+const loginB=await authCall('auth/login',{username:'student_b',password:registration.password});const cookieB=loginB.cookie.split(';')[0];await authCall('preferences',{voice:false,analytics:false},cookieB);
+check((await authCall('sessions/'+sessionA.id,undefined,cookieB)).status===404,'Second credential account cannot read first account session');
+check((await authCall('session/save',{sessionId:sessionA.id,stage:0,active:true},cookieB)).status===404,'Second account cannot mutate first account session');
+check((await authCall('tutor',{sessionId:sessionA.id,message:'Şiir nedir?',inputMode:'voice'},cookieA)).status===403,'Server enforces voice opt-in');
+sqlite.prepare('UPDATE learning_sessions SET last_heartbeat=? WHERE id=?').run(new Date(Date.now()-3600000).toISOString(),sessionA.id);
+await authCall('session/save',{sessionId:sessionA.id,stage:0,active:true},cookieA);
+check(sqlite.prepare('SELECT active_seconds FROM learning_sessions WHERE id=?').get(sessionA.id)!.active_seconds===0,'Long-idle heartbeat receives no credit');
+await authCall('preferences',{voice:false,analytics:true},cookieA);
+sqlite.prepare('UPDATE learning_sessions SET last_heartbeat=? WHERE id=?').run(new Date(Date.now()-15000).toISOString(),sessionA.id);
+await authCall('session/save',{sessionId:sessionA.id,stage:0,active:true},cookieA);
+check(Number(sqlite.prepare('SELECT active_seconds FROM learning_sessions WHERE id=?').get(sessionA.id)!.active_seconds)>=15,'Active study heartbeat receives bounded credit');
+check(Number(sqlite.prepare('SELECT COUNT(*) n FROM learning_methods WHERE user_id=?').get(meA.profile.id)!.n)===1,'Method detail is collected only after opt-in');
+await authCall('preferences',{voice:false,analytics:false},cookieA);
+check(Number(sqlite.prepare('SELECT COUNT(*) n FROM learning_methods WHERE user_id=?').get(meA.profile.id)!.n)===0,'Withdrawing analytics deletes optional method history');
+setUser('owner');const detail=(await call('admin/students/'+meA.profile.id)).data;
+check(detail.student.first_name==='Ada'&&detail.daily.length===1&&!JSON.stringify(detail).includes('password_hash')&&!JSON.stringify(detail).includes('student_explanation'),'Admin detail contains summary and chart data, no credentials or conversations');
+await authCall('auth/logout',{},cookieA);check((await authCall('me',undefined,cookieA)).status===401,'Logout revokes server session');
+check((await GET(new Request('https://test.local/api/me',{headers:{'oai-authenticated-user-id':'owner','oai-authenticated-user-email':'owner@example.test'}}))).status===401,'Forged identity headers cannot authenticate');
+sqlite.prepare('UPDATE auth_sessions SET expires_at=0 WHERE user_id=?').run((sqlite.prepare('SELECT user_id FROM student_accounts WHERE username=?').get('student_b') as any).user_id);
+check((await authCall('me',undefined,cookieB)).status===401,'Expired session rejected');
+for(let i=0;i<13;i++)await authCall('auth/login',{username:'rate_limit_user',password:'wrong-password'});
+check((await authCall('auth/login',{username:'rate_limit_user',password:'wrong-password'})).status===429,'Repeated login attempts are rate limited');
+console.log('TOTAL '+passed+' integration checks passed');

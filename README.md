@@ -1,4 +1,4 @@
-# Edebiyat Atölyesi
+# EdebLab
 
 React/TypeScript, Vinext, Cloudflare Workers ve D1. Kaynaklar `frontend/` ve `backend/` altında korunur. Kök komutlar kaynakları üretilen `.runtime/` dizininde birleştirir. Bu dizin kaynak kontrolüne alınmaz.
 
@@ -12,7 +12,7 @@ npm run db:local
 npm run dev
 ```
 
-Yerel adres: http://127.0.0.1:5173. Yalnız geliştirme sürümünde ve loopback üzerinde yerel öğrenci hesabı kullanılır. Üretim derlemesinde bu hesap yoktur.
+Yerel adres: http://127.0.0.1:5173. Kayıt Ol ekranından hesap açılır. Yerelde de otomatik kimlik veya yönetici atanmaz. Yeni giriş sistemi, izinler, yönetici hesabı ve yayın adımları için **EDEBLAB-TESLIM.md** dosyasını okuyun.
 
 ```sh
 npm run typecheck
@@ -22,7 +22,7 @@ npm run build
 
 Derleme `.runtime/dist/client` ve `.runtime/dist/server` altında oluşur. Önceki depoda eksik olan Sites derleme eklentilerinin yerine Vinext'in standart Cloudflare Vite adaptörü kullanılır. Mevcut veritabanı, kaynak onayları, öğrenme puanları ve araştırma tabloları korunur.
 
-Tarayıcı testleri için yerel sunucu açıkken `npx playwright install chromium` ve `npm run test:browser` çalıştırılabilir. Kurulu Edge ile PowerShell: `$env:TEST_BROWSER_CHANNEL='msedge'; npm run test:browser`. Testler yalnız localhost üzerinde çalışır; yerel test hesabında oturum oluşturur ve geçici araştırma katılımını test sonunda kaldırır.
+Tarayıcı testleri için yerel sunucu açıkken `npx playwright install chromium` ve `npm run test:browser` çalıştırılabilir. Kurulu Edge ile PowerShell: `$env:TEST_BROWSER_CHANNEL='msedge'; npm run test:browser`. Testler yalnız localhost üzerinde çalışır; ayrı yerel test hesapları oluşturur; gerçek üretim veritabanında çalıştırılmamalıdır.
 
 ## Ses tamamen isteğe bağlı
 
@@ -60,7 +60,7 @@ Yerel anahtar için `.env.example` dosyasını `.dev.vars` adıyla kopyalayıp k
 
 `wrangler.json` içindeki D1 kimliği yalnız yerel yer tutucudur. Dağıtım öncesi aynı yapıyı `wrangler.local.json` dosyasına kopyala ve **mevcut** Worker adı ile D1 veritabanı kimliğini kullan; yeni veritabanı oluşturma. `npm run build` bu dosyayı varsa tercih eder. Üretim çıktısının yapılandırması `.runtime/dist/server/wrangler.json` olur.
 
-Mevcut üretim veritabanında yalnız yeni, eklemeli `backend/drizzle/0002_ai_usage.sql` değişikliği gerekir. İlk iki migration daha önce uygulandıysa tekrar çalıştırma. Örneğin doğru hedefi ayarladıktan sonra:
+Mevcut üretim veritabanında uygulanmamış eklemeli migration dosyaları gerekir; bu teslimde yenisi `0003_student_accounts.sql` dosyasıdır. İlk iki migration daha önce uygulandıysa tekrar çalıştırma. Örneğin doğru hedefi ayarladıktan sonra:
 
 ```sh
 npx wrangler d1 execute DB --config .runtime/wrangler.json --remote --file backend/drizzle/0002_ai_usage.sql
@@ -68,11 +68,11 @@ npx wrangler d1 execute DB --config .runtime/wrangler.json --remote --file backe
 
 Bu geliştirme sırasında uzak veritabanına veya yayındaki siteye değişiklik yapılmadı.
 
-### Mevcut kimlik doğrulama sınırı
+### Öğrenci girişi
 
-Uygulama mevcut ChatGPT kimlik başlıklarını kullanmaya devam eder. Bağımsız Worker yayını kendi başına ChatGPT giriş yönlendirmesini oluşturmaz. Mevcut güvenilir kimlik ağ geçidi, Worker'a `x-edebiyat-gateway-secret` başlığını ve doğrulanmış kullanıcı başlıklarını iletmelidir; Worker tarafındaki `AUTH_GATEWAY_SECRET` secret değeri eşleşmelidir. Bu ortak değer tarayıcıya gönderilmez. Ağ geçidi olmadan üretim sürümü giriş yapmış kullanıcı varsaymaz. Bu, eksik Sites eklentilerinin yerine standart Worker kullanılırken kimlik başlıklarının tarayıcıdan taklit edilmesini önler.
+Kullanıcı adı/şifre ve D1 tabanlı güvenli oturum kullanılır. ChatGPT kimlik başlıkları giriş yetkisi vermez. Şifreler rastgele salt ile PBKDF2-SHA256 (600.000 iterasyon) özeti olarak saklanır. HTTPS oturum çerezi `__Host-`, Secure, HttpOnly ve SameSite=Lax özelliklerini taşır. Yerelde yalnız HTTP geliştirme için ayrı bir çerez adı kullanılır. Ayrıntılar **EDEBLAB-TESLIM.md** içindedir.
 
-Statik podcastler de Worker üzerinden geçer: giriş ve araştırma katılımı kontrolü yapılır, yetkili yanıt `private, no-store` döner. `run_worker_first: true` ayarını kaldırma; aksi hâlde doğrudan statik URL'ler erişim denetimini atlayabilir.
+Statik podcastler Worker üzerinden geçer: giriş ve araştırma katılımı kontrolü yapılır, yetkili yanıt `private, no-store` döner. `run_worker_first: true` ayarını kaldırmayın.
 
 ## Gemini anahtarını Cloudflare'a ekleme
 
